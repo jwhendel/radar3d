@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-08T14:59",
+ "atualizado_em": "2026-10-08T15:24-03:00",
  "itens": [
   {
    "controle": "48031918000124-1-002714/2026",
@@ -66,22 +66,6 @@
    "link": "https://pncp.gov.br/app/editais/63025530000104/2026/3851"
   },
   {
-   "controle": "42498733000148-1-001976/2026",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "15/10/2026 11:00",
-   "encerra_iso": "2026-10-15T11:00",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "MUNICIPIO DE RIO DE JANEIRO",
-   "modalidade": "Pregão – Eletrônico Internacional ",
-   "edital": "Edital nº 1721/2026",
-   "objeto": "Registro de preços para aquisição de próteses ortopédicas e acessórios para amputação Transfemural e Transtibial, viabilizada pela sua confecção e fornecimento, através de solução tecnológica integrada e fluxo digital, compreendendo: digitalização tridimensional do coto e/ou encaixe protético por meio de scanner 3D em cores (RGB) e alta resolução, impressão 3D com laminação em fibra de carbono e fibra de vidro, feita sob medida, incluídas garantia de no mínimo 24 (vinte e quatro) meses.",
-   "itens_txt": "",
-   "valor_3d": null,
-   "link": "https://pncp.gov.br/app/editais/42498733000148/2026/1976"
-  },
-  {
    "controle": "42441758000105-1-000171/2026",
    "novo": "NÃO",
    "nivel": "Alta (3D no objeto)",
@@ -128,38 +112,6 @@
    "itens_txt": "Item 1: SUPRIMENTO PARA IMPRESSORA 3D - IDENTIFICACAO: FILAMENTO DIAMETRO 1,75 MM; MATERIA-PRIMA: PLA (POLICIDO LATICO); (qtd 418.0)",
    "valor_3d": 38874.0,
    "link": "https://pncp.gov.br/app/editais/16695025000197/2026/994"
-  },
-  {
-   "controle": "06220430000103-1-000024/2026",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "23/10/2026 10:00",
-   "encerra_iso": "2026-10-23T10:00",
-   "uf": "RJ",
-   "municipio": "Petrópolis",
-   "orgao": "FUNDACAO DE APOIO AO DESENVOLVIMENTO DA COMPUTACAO CIENTIFICA - FACC",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 25/2026",
-   "objeto": "Contratação de empresa especializada de engenharia para realização de obras civis de adequação e reforma do edifício localizado no Parque de Instruções Ricardo Franco (PIRF), Fortaleza de São João, Urca, Rio de Janeiro/RJ, destinado a abrigar o Centro Integrado de Pesquisa, Desenvolvimento, Inovação e Caracterização em Manufatura Aditiva – CIMA-IME, do Instituto Militar de Engenharia, conforme condições, quantidades e exigências estabelecidas neste instrumento.",
-   "itens_txt": "Item 1: Contratação de empresa especializada de engenharia para realização de obras civis de adequação e reforma do edifício loc (qtd 1.0)",
-   "valor_3d": 1933687.15,
-   "link": "https://pncp.gov.br/app/editais/06220430000103/2026/24"
-  },
-  {
-   "controle": "18428854000139-1-000114/2025",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "11/12/2026 23:59",
-   "encerra_iso": "2026-12-11T23:59:59",
-   "uf": "MG",
-   "municipio": "Conceição das Alagoas",
-   "orgao": "MUNICIPIO DE CONCEICAO DAS ALAGOAS",
-   "modalidade": "Credenciamento",
-   "edital": "Edital de Chamamento Público nº 11/2025",
-   "objeto": "[LICITANET] - CREDENCIAMENTO E CADASTRAMENTO DE RESERVA DE PESSOA JURÍDICA, PARA PRESTAÇÃO DE SERVIÇOS DE CONFECÇÃO DE PRÓTESES TOTAIS REMOVÍVEIS, PRÓTESES PARCIAIS REMOVÍVEIS E COROAS UNITÁRIAS EM RESINA IMPRESSAS EM 3D COM CARGA DE CERÂMICA E ZIRCÔNIA SINALIZADAS, PARA SUPRIR AS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE, PELO PERÍODO DE 12 (DOZE) MESES, CONFORME DISPOSIÇÕES CONSTANTES NESTE INSTRUMENTO E SEUS ANEXOS",
-   "itens_txt": "",
-   "valor_3d": null,
-   "link": "https://pncp.gov.br/app/editais/18428854000139/2025/114"
   },
   {
    "controle": "78279973000107-1-000212/2026",
@@ -258,36 +210,20 @@
    "link": "https://pncp.gov.br/app/editais/28523215000106/2026/347"
   },
   {
-   "controle": "46177523000109-1-000264/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "14/10/2026 09:00",
-   "encerra_iso": "2026-10-14T09:00",
-   "uf": "SP",
-   "municipio": "São Vicente",
-   "orgao": "MUNICIPIO DE SAO VICENTE",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 70/2026/2026",
-   "objeto": "Registro de Preços para aquisição de equipamentos de tecnologia da informação e comunicação (TIC), equipamentos de áudio, vídeo, podcast, informática, acessórios e infraestrutura para a SEDUC, conforme especificações constantes do Anexo I deste Edital.",
-   "itens_txt": "Item 18: IMPRESSORA 3D (qtd 9.0)\nItem 26: IMPRESSORA 3D (qtd 3.0)",
-   "valor_3d": 40796.04,
-   "link": "https://pncp.gov.br/app/editais/46177523000109/2026/264"
-  },
-  {
-   "controle": "46482865000132-1-000311/2026",
+   "controle": "78640489000153-1-000801/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "15/10/2026 09:00",
    "encerra_iso": "2026-10-15T09:00",
-   "uf": "SP",
-   "municipio": "Ilhabela",
-   "orgao": "MUNICIPIO DE ILHABELA",
+   "uf": "PR",
+   "municipio": "Londrina",
+   "orgao": "UNIVERSIDADE ESTADUAL DE LONDRINA",
    "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº PE077/2026",
-   "objeto": "Registro de preços visando aquisição de equipamentos e mobiliários hospitalares. ",
-   "itens_txt": "Item 17: IMPRESSORA 3D ODONTOLOGICA IMPRESSORA 3D ODONTOLOGICA (qtd 1.0)",
-   "valor_3d": 14666.6,
-   "link": "https://pncp.gov.br/app/editais/46482865000132/2026/311"
+   "edital": "Edital nº 128/2026",
+   "objeto": "Aquisição de desktops, kit de desenvolvimento para inteligência artificial, kit módulo didático de telecomunicação e impressora (3D profissional e multifucional tanque de tinta).",
+   "itens_txt": "Item 3: Impressora 3d padrão: fff/fdm, tipo gabinete: aberto, conexão: usb, alimentação: bivolt, padrão filamentos: abs e pla, c (qtd 3.0)",
+   "valor_3d": 21593.58,
+   "link": "https://pncp.gov.br/app/editais/78640489000153/2026/801"
   },
   {
    "controle": "32479123000143-1-000165/2026",
@@ -304,38 +240,6 @@
    "itens_txt": "Item 2: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 7.0)\nItem 3: Conjunto Manutenção Impressora / Copiadora tipo: filamentos abs, tipo impressora: 3d, características adicionais: espess (qtd 5.0)\nItem 4: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d (qtd 5.0)\nItem 5: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento abs, tipo impressora: 3d, característ (qtd 5.0)\nItem 6: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 4.0)",
    "valor_3d": 3521.89,
    "link": "https://pncp.gov.br/app/editais/32479123000143/2026/165"
-  },
-  {
-   "controle": "78640489000153-1-000817/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "15/10/2026 09:00",
-   "encerra_iso": "2026-10-15T09:00",
-   "uf": "PR",
-   "municipio": "Londrina",
-   "orgao": "UNIVERSIDADE ESTADUAL DE LONDRINA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 1255/2026",
-   "objeto": "AQUISIÇÃO DE DESKTOPS, KIT DE DESENVOLVIMENTO PARA INTELIGÊNCIA ARTIFICIAL, KIT MÓDULO DIDÁTICO DE TELECOMUNICAÇÃO E IMPRESSORAS - 3D PROFISSIONAL E MULTIFUNCIONAL TANQUE DE TINTA.",
-   "itens_txt": "Item 3: (L3) 7003.67109-Impressora 3D, CARACTERÍSTICAS ADICIONAIS: Demais informações de acordo com Termo de Referência e/ou Des (qtd 3.0)",
-   "valor_3d": 21593.58,
-   "link": "https://pncp.gov.br/app/editais/78640489000153/2026/817"
-  },
-  {
-   "controle": "78640489000153-1-000801/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "15/10/2026 09:00",
-   "encerra_iso": "2026-10-15T09:00",
-   "uf": "PR",
-   "municipio": "Londrina",
-   "orgao": "UNIVERSIDADE ESTADUAL DE LONDRINA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 128/2026",
-   "objeto": "Aquisição de desktops, kit de desenvolvimento para inteligência artificial, kit módulo didático de telecomunicação e impressora (3D profissional e multifucional tanque de tinta).",
-   "itens_txt": "Item 3: Impressora 3d padrão: fff/fdm, tipo gabinete: aberto, conexão: usb, alimentação: bivolt, padrão filamentos: abs e pla, c (qtd 3.0)",
-   "valor_3d": 21593.58,
-   "link": "https://pncp.gov.br/app/editais/78640489000153/2026/801"
   },
   {
    "controle": "00394452000103-1-021434/2026",
@@ -531,7 +435,7 @@
   },
   {
    "controle": "95585444000142-1-000122/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "23/10/2026 09:00",
    "encerra_iso": "2026-10-23T09:00",
@@ -560,6 +464,22 @@
    "itens_txt": "Item 8: Filamento PLA para impressão 3D, diâmetro nominal de 1,75 mm, tolerância dimensional máxima de  0,05 mm, peso líquido mí (qtd 670.0)",
    "valor_3d": 72366.7,
    "link": "https://pncp.gov.br/app/editais/76995448000154/2026/155"
+  },
+  {
+   "controle": "45787678000102-1-000269/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "18/08/2029 09:00",
+   "encerra_iso": "2029-08-18T09:00",
+   "uf": "SP",
+   "municipio": "Valinhos",
+   "orgao": "MUNICIPIO DE VALINHOS",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 114/2026/2026",
+   "objeto": "Aquisição de materiais de consumo (utensílios pedagógicos e materiais educativos)",
+   "itens_txt": "Item 10: Kit peças anatômicas de gordura e músculo, réplica humano, de plástico, projetada para representar  fielmente o volume d (qtd 4.0)",
+   "valor_3d": 370.24,
+   "link": "https://pncp.gov.br/app/editais/45787678000102/2026/269"
   }
  ]
 }
