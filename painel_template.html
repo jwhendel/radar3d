@@ -55,6 +55,8 @@
 #radar3d .uf{font-weight:700}
 #radar3d a.lnk{color:var(--brand);font-weight:600;text-decoration:none;white-space:nowrap}
 #radar3d a.lnk:hover{text-decoration:underline}
+#radar3d .itens{margin-top:4px}
+#radar3d .itens summary{cursor:pointer;color:var(--brand);font-weight:600;margin-top:3px}
 #radar3d .empty{padding:40px;text-align:center;color:var(--muted)}
 #radar3d .r-foot{font-size:12px;color:var(--muted);margin-top:12px}
 @media (max-width:860px){
@@ -185,6 +187,12 @@
     });
   }
 
+  function itensHtml(txt){
+    if(!txt) return "";
+    var ls=txt.split("\n").filter(Boolean), h="<div class='org itens'>"+ls.slice(0,2).map(esc).join("<br>");
+    if(ls.length>2) h+="<details><summary>ver mais "+(ls.length-2)+" itens 3D</summary>"+ls.slice(2).map(esc).join("<br>")+"</details>";
+    return h+"</div>";
+  }
   function render(){
     var lista=filtrados(), html="";
     lista.forEach(function(x){
@@ -195,7 +203,7 @@
         "<td data-l='Prazo'><div class='dias "+cls+"'>"+txtD+"</div><div class='dt'>"+esc(x.encerra)+"</div></td>"+
         "<td data-l='UF'><span class='uf'>"+esc(x.uf)+"</span><div class='dt'>"+esc(x.municipio)+"</div></td>"+
         "<td><div class='obj'>"+esc(x.objeto)+"</div><div class='org'>"+esc(x.orgao)+"</div>"+
-          (x.itens_txt?"<div class='org' style='white-space:pre-line;margin-top:4px'>"+esc(x.itens_txt)+"</div>":"")+
+          itensHtml(x.itens_txt)+
           (x.obs?"<div class='obs'>"+esc(x.obs)+"</div>":"")+"</td>"+
         "<td data-l='Modalidade'>"+esc(x.modalidade)+"</td>"+
         "<td data-l='Valor 3D'>"+brl(x.valor_3d)+"</td>"+
