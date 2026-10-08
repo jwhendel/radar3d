@@ -29,6 +29,7 @@ import unicodedata
 from datetime import datetime
 from email.message import EmailMessage
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 from openpyxl import Workbook
@@ -238,7 +239,7 @@ def enviar_email(linhas, anexo):
         return
     novos = [l for l in linhas if l["novo"] == "SIM"]
     msg = EmailMessage()
-    msg["Subject"] = f"Radar 3D: {len(novos)} novas licitações ({datetime.now():%d/%m})"
+    msg["Subject"] = f"Radar 3D: {len(novos)} novas licitações ({datetime.now(ZoneInfo('America/Sao_Paulo')):%d/%m})"
     msg["From"] = os.getenv("SMTP_USER")
     msg["To"] = para
     corpo = [f"{len(linhas)} oportunidades abertas, {len(novos)} novas desde ontem.\n"]
@@ -308,11 +309,11 @@ def main():
     linhas.sort(key=lambda l: (rank(l["nivel"]), l["encerra_iso"]))
 
     PASTA_SAIDA.mkdir(exist_ok=True)
-    arq = PASTA_SAIDA / f"radar_3d_{datetime.now():%Y-%m-%d}.xlsx"
+    arq = PASTA_SAIDA / f"radar_3d_{datetime.now(ZoneInfo('America/Sao_Paulo')):%Y-%m-%d}.xlsx"
     gerar_planilha(linhas, arq)
     # JSON lido pelo painel HTML (painel_pregoes.html)
     (PASTA / "radar.json").write_text(json.dumps({
-        "atualizado_em": datetime.now().isoformat(timespec="minutes"),
+        "atualizado_em": datetime.now(ZoneInfo('America/Sao_Paulo')).isoformat(timespec="minutes"),
         "itens": linhas,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     salvar_vistos(vistos | {l["controle"] for l in linhas})
