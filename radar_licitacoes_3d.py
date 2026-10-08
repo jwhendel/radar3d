@@ -62,7 +62,8 @@ REGEX_3D = re.compile(
 
 # Itens que citam 3D mas são produtos fabricados por impressão (não impressoras/insumos)
 REGEX_EXCLUIR = re.compile(
-    r"(coroa|ortese|protese|modelo\s+anatomico|resina\s+composta|sutura|implante)",
+    r"(coroa|ortese|protese|modelo\s+anatomico|resina\s+composta|sutura|implante|"
+    r"obras?\s+civis|reforma\s+d[oe]\s+edif|servicos?\s+de\s+engenharia)",
     re.IGNORECASE,
 )
 
@@ -155,7 +156,10 @@ def classificar(edital, itens):
         if REGEX_3D.search(sem_acento(it.get("descricao", "")))
         and not REGEX_EXCLUIR.search(sem_acento(it.get("descricao", "")))
     ]
-    no_objeto = bool(REGEX_3D.search(sem_acento(objeto)))
+    obj = sem_acento(objeto)
+    no_objeto = bool(REGEX_3D.search(obj)) and not REGEX_EXCLUIR.search(obj)
+    if REGEX_EXCLUIR.search(obj) and not hits:
+        return None, []
     if no_objeto:
         nivel = "Alta (3D no objeto)"
     elif hits:
