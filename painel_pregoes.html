@@ -1,0 +1,256 @@
+<!-- ===================== Radar de Pregões 3D | Slim 3D =====================
+  Cole este bloco inteiro num módulo "HTML personalizado" do HubSpot
+  (ou use como página completa). Todo o estilo fica dentro de #radar3d.
+
+  DADOS ATUALIZADOS: preencha DATA_URL com o endereço do radar.json gerado
+  pelo script (ex.: https://raw.githubusercontent.com/SEU_USUARIO/radar3d/main/radar.json).
+  Se ficar vazio ou falhar, o painel mostra o último retrato embutido abaixo.
+=========================================================================== -->
+<div id="radar3d">
+<style>
+#radar3d{--bg:#f4f6f9;--card:#fff;--ink:#14213d;--muted:#5c677d;--line:#e3e7ee;--brand:#1f3a5f;--accent:#ff7a1a;
+  --alta:#1f9d55;--alta-bg:#e3f5ea;--media:#b7791f;--media-bg:#fdf3dc;--conf:#5c677d;--conf-bg:#eceff3;--red:#d63c3c;--red-bg:#fde7e7;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);
+  padding:24px;border-radius:14px;line-height:1.4;font-size:14px;box-sizing:border-box}
+#radar3d *{box-sizing:border-box}
+#radar3d .r-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:20px}
+#radar3d h1{font-size:24px;margin:0;color:var(--brand);letter-spacing:-.3px}
+#radar3d .r-sub{color:var(--muted);margin-top:4px}
+#radar3d .r-upd{font-size:12px;color:var(--muted);text-align:right}
+#radar3d .r-upd b{color:var(--ink)}
+#radar3d .r-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
+#radar3d .r-kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+#radar3d .r-kpi .n{font-size:28px;font-weight:700;color:var(--brand);line-height:1.1}
+#radar3d .r-kpi .l{color:var(--muted);font-size:12px;margin-top:4px}
+#radar3d .r-kpi.hot .n{color:var(--red)}
+#radar3d .r-kpi.ok .n{color:var(--alta)}
+#radar3d .r-filters{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+#radar3d input[type=search],#radar3d select{border:1px solid var(--line);border-radius:8px;padding:9px 10px;font:inherit;color:var(--ink);background:#fff;min-width:0}
+#radar3d input[type=search]{flex:1 1 240px}
+#radar3d .r-chips{display:flex;gap:6px;flex-wrap:wrap}
+#radar3d .r-chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;cursor:pointer;font:inherit;font-size:13px;color:var(--muted)}
+#radar3d .r-chip.on{background:var(--brand);border-color:var(--brand);color:#fff}
+#radar3d .r-btn{border:0;background:var(--accent);color:#fff;border-radius:8px;padding:9px 14px;font:inherit;font-weight:600;cursor:pointer}
+#radar3d .r-btn.ghost{background:transparent;color:var(--brand);border:1px solid var(--line)}
+#radar3d .r-count{color:var(--muted);font-size:13px;margin:0 2px 8px}
+#radar3d .r-table{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+#radar3d table{width:100%;border-collapse:collapse}
+#radar3d th{background:#f8fafc;text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);padding:10px 12px;border-bottom:1px solid var(--line);cursor:pointer;white-space:nowrap;user-select:none}
+#radar3d th.sorted{color:var(--brand)}
+#radar3d td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top}
+#radar3d tr:last-child td{border-bottom:0}
+#radar3d tbody tr:hover{background:#fafbfd}
+#radar3d .obj{font-weight:600;margin-bottom:3px}
+#radar3d .org{color:var(--muted);font-size:12px}
+#radar3d .obs{font-size:12px;color:var(--accent);margin-top:4px}
+#radar3d .tag{display:inline-block;border-radius:6px;padding:3px 8px;font-size:12px;font-weight:600;white-space:nowrap}
+#radar3d .t-alta{background:var(--alta-bg);color:var(--alta)}
+#radar3d .t-media{background:var(--media-bg);color:var(--media)}
+#radar3d .t-conf{background:var(--conf-bg);color:var(--conf)}
+#radar3d .t-new{background:#e6effa;color:var(--brand);margin-left:4px}
+#radar3d .dias{font-weight:700;white-space:nowrap}
+#radar3d .dias.urg{color:var(--red)}
+#radar3d .dias.atn{color:var(--media)}
+#radar3d .dt{font-size:12px;color:var(--muted);white-space:nowrap}
+#radar3d .uf{font-weight:700}
+#radar3d a.lnk{color:var(--brand);font-weight:600;text-decoration:none;white-space:nowrap}
+#radar3d a.lnk:hover{text-decoration:underline}
+#radar3d .empty{padding:40px;text-align:center;color:var(--muted)}
+#radar3d .r-foot{font-size:12px;color:var(--muted);margin-top:12px}
+@media (max-width:860px){
+  #radar3d{padding:16px}
+  #radar3d .r-kpis{grid-template-columns:repeat(2,1fr)}
+  #radar3d .r-upd{text-align:left}
+  #radar3d .r-filters select,#radar3d .r-filters input{flex:1 1 100%}
+  #radar3d thead{display:none}
+  #radar3d table,#radar3d tbody,#radar3d tr,#radar3d td{display:block;width:100%}
+  #radar3d tr{border-bottom:1px solid var(--line);padding:6px 0}
+  #radar3d td{border:0;padding:4px 12px}
+  #radar3d td[data-l]::before{content:attr(data-l)": ";color:var(--muted);font-size:12px}
+}
+</style>
+
+  <div class="r-head">
+    <div>
+      <h1>Radar de Pregões 3D</h1>
+      <div class="r-sub">Licitações públicas com propostas abertas para impressoras 3D, filamentos e afins (fonte: PNCP)</div>
+    </div>
+    <div class="r-upd">Atualizado em <b id="r-upd">...</b><br><span id="r-src"></span></div>
+  </div>
+
+  <div class="r-kpis">
+    <div class="r-kpi"><div class="n" id="k-total">0</div><div class="l">Oportunidades abertas</div></div>
+    <div class="r-kpi ok"><div class="n" id="k-alta">0</div><div class="l">Alta relevância (3D no objeto)</div></div>
+    <div class="r-kpi hot"><div class="n" id="k-urg">0</div><div class="l">Encerram em até 7 dias</div></div>
+    <div class="r-kpi"><div class="n" id="k-uf">0</div><div class="l">Estados com demanda</div></div>
+  </div>
+
+  <div class="r-filters">
+    <input type="search" id="f-q" placeholder="Buscar órgão, objeto, cidade...">
+    <select id="f-uf"><option value="">Todos os estados</option></select>
+    <select id="f-mod"><option value="">Todas as modalidades</option></select>
+    <select id="f-prazo">
+      <option value="">Qualquer prazo</option>
+      <option value="3">Encerra em até 3 dias</option>
+      <option value="7">Encerra em até 7 dias</option>
+      <option value="15">Encerra em até 15 dias</option>
+    </select>
+    <div class="r-chips" id="f-niv">
+      <button class="r-chip on" data-v="">Todas</button>
+      <button class="r-chip" data-v="Alta">Alta</button>
+      <button class="r-chip" data-v="Média">Média</button>
+      <button class="r-chip" data-v="A confirmar">A confirmar</button>
+    </div>
+    <button class="r-btn ghost" id="b-clear">Limpar</button>
+    <button class="r-btn" id="b-csv">Exportar CSV</button>
+  </div>
+
+  <div class="r-count" id="r-count"></div>
+  <div class="r-table">
+    <table>
+      <thead><tr>
+        <th data-k="nivel" class="sorted">Relevância ▲</th>
+        <th data-k="encerra_iso">Prazo</th>
+        <th data-k="uf">UF</th>
+        <th data-k="objeto">Objeto / Órgão</th>
+        <th data-k="modalidade">Modalidade</th>
+        <th data-k="valor_3d">Valor 3D est.</th>
+        <th>Edital</th>
+      </tr></thead>
+      <tbody id="r-body"></tbody>
+    </table>
+  </div>
+  <div class="r-foot">Relevância: <b>Alta</b> = impressora 3D no objeto do edital; <b>Média</b> = item 3D dentro de um lote maior; <b>A confirmar</b> = verificar os itens no edital.</div>
+
+<script>
+(function(){
+  var CONFIG = { DATA_URL: "https://raw.githubusercontent.com/jwhendel/radar3d/main/radar.json" };   // <- coloque aqui a URL do radar.json
+  var EMBUTIDO = {"atualizado_em": "2026-10-08T14:00", "itens": [{"controle": "00394445000101/2026/257", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "14/10/2026 08:00", "encerra_iso": "2026-10-14T08:00", "uf": "RJ", "municipio": "Rio de Janeiro", "orgao": "MINISTERIO DA EDUCACAO", "modalidade": "Dispensa", "edital": "Aviso de Contratação Direta nº 35/2026", "objeto": "Materiais diversos para a organização pedagógica de espaços e para a realização de aulas", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/00394445000101/2026/257", "obs": ""}, {"controle": "28523215000106/2026/347", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "14/10/2026 08:00", "encerra_iso": "2026-10-14T08:00", "uf": "RJ", "municipio": "Niterói", "orgao": "UNIVERSIDADE FEDERAL FLUMINENSE", "modalidade": "Dispensa", "edital": "Aviso de Contratação Direta nº 136/2026", "objeto": "Aquisição de Equipamentos e Materiais para laboratório de engenharia", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/28523215000106/2026/347", "obs": "Laboratório de engenharia, boa chance"}, {"controle": "75101873000190/2026/492", "novo": "SIM", "nivel": "Alta (3D no objeto)", "encerra": "14/10/2026 08:30", "encerra_iso": "2026-10-14T08:30", "uf": "PR", "municipio": "Pato Branco", "orgao": "UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA", "modalidade": "Dispensa", "edital": "Aviso de Contratação Direta nº 114/2026", "objeto": "Aquisição de Impressoras 3D, Scanner 3D, e Máquina de Gravação à Laser para UTFPR Campus Pato Branco", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/75101873000190/2026/492", "obs": "Dispensa: prazo curto, cotação direta"}, {"controle": "76105568000139/2026/186", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "20/10/2026 08:29", "encerra_iso": "2026-10-20T08:29", "uf": "PR", "municipio": "Quatro Barras", "orgao": "MUNICIPIO DE QUATRO BARRAS", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº PCE 68/2026", "objeto": "Registro de preços para aquisição de equipamentos de tecnologia da informação", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/76105568000139/2026/186", "obs": ""}, {"controle": "75101873000190/2026/491", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "20/10/2026 08:30", "encerra_iso": "2026-10-20T08:30", "uf": "PR", "municipio": "Pato Branco", "orgao": "UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 16/2026", "objeto": "Aquisição de insumos de TIC, materiais de áudio, vídeo e foto", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/75101873000190/2026/491", "obs": "Possível filamento entre insumos"}, {"controle": "08787236000121/2026/137", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "20/10/2026 08:59", "encerra_iso": "2026-10-20T08:59", "uf": "PB", "municipio": "Solânea", "orgao": "MUNICIPIO DE SOLANEA", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 48/2026", "objeto": "Aquisição de equipamentos de informática diversos", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/08787236000121/2026/137", "obs": ""}, {"controle": "07623069000110/2026/66", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "20/10/2026 09:00", "encerra_iso": "2026-10-20T09:00", "uf": "CE", "municipio": "Uruburetama", "orgao": "MUNICIPIO DE URUBURETAMA", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 020/2026.02", "objeto": "Aquisição de materiais permanentes: climatização, eletrodomésticos, mobiliários", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/07623069000110/2026/66", "obs": ""}, {"controle": "88073291000199/2026/320", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "20/10/2026 09:30", "encerra_iso": "2026-10-20T09:30", "uf": "RS", "municipio": "Bagé", "orgao": "MUNICIPIO DE BAGE", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 79/2026", "objeto": "Registro de Preços para futura aquisição de suprimentos de informática", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/88073291000199/2026/320", "obs": "Provável filamento"}, {"controle": "08349003000147/2026/41", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "21/10/2026 08:00", "encerra_iso": "2026-10-21T08:00", "uf": "RN", "municipio": "Janduís", "orgao": "MUNICIPIO DE JANDUIS", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 13/2026 (41)", "objeto": "Fornecimento de equipamentos de informática e comunicação", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/08349003000147/2026/41", "obs": ""}, {"controle": "08349003000147/2026/42", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "21/10/2026 08:00", "encerra_iso": "2026-10-21T08:00", "uf": "RN", "municipio": "Janduís", "orgao": "MUNICIPIO DE JANDUIS", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 13/2026 (42)", "objeto": "Fornecimento de equipamentos de informática e comunicação", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/08349003000147/2026/42", "obs": ""}, {"controle": "78680337000184/2026/357", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "21/10/2026 08:30", "encerra_iso": "2026-10-21T08:30", "uf": "PR", "municipio": "Cascavel", "orgao": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANA", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 11/2026", "objeto": "Materiais e insumos odontológicos, Campus de Cascavel", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/78680337000184/2026/357", "obs": "Provável resina odontológica 3D"}, {"controle": "83899526000182/2026/189", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "21/10/2026 08:30", "encerra_iso": "2026-10-21T08:30", "uf": "SC", "municipio": "Florianópolis", "orgao": "UNIVERSIDADE FEDERAL DE SANTA CATARINA", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 380/2026", "objeto": "Registro de preços de itens de informática, aparelhos e equipamentos de comunicação", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/83899526000182/2026/189", "obs": "Cliente local (SC), prioridade"}, {"controle": "75771212000171/2026/92", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "22/10/2026 08:00", "encerra_iso": "2026-10-22T08:00", "uf": "PR", "municipio": "Rio Bom", "orgao": "MUNICIPIO DE RIO BOM", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 37/2026", "objeto": "Registro de preços de materiais e equipamentos de informática", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/75771212000171/2026/92", "obs": ""}, {"controle": "16695025000197/2026/994", "novo": "SIM", "nivel": "Alta (3D no objeto)", "encerra": "22/10/2026 09:00", "encerra_iso": "2026-10-22T09:00", "uf": "MG", "municipio": "Belo Horizonte", "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 278/2026", "objeto": "AQUISIÇÃO DE IMPRESSORAS 3D E INSUMOS (FILAMENTOS)", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/16695025000197/2026/994", "obs": "Impressoras + filamentos, encaixe direto"}, {"controle": "21195755000169/2026/67", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "22/10/2026 09:00", "encerra_iso": "2026-10-22T09:00", "uf": "MG", "municipio": "Juiz de Fora", "orgao": "UNIVERSIDADE FEDERAL DE JUIZ DE FORA UFJF", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 425/2026", "objeto": "Aparelhos, equipamentos, utensílios médicos, odontológicos, laboratoriais", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/21195755000169/2026/67", "obs": ""}, {"controle": "09148131000195/2026/35", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "22/10/2026 09:29", "encerra_iso": "2026-10-22T09:29", "uf": "PB", "municipio": "Manaíra", "orgao": "MUNICIPIO DE MANAIRA", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 0026/2026", "objeto": "Aquisição de equipamentos e acessórios de informática para as Secretarias", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/09148131000195/2026/35", "obs": ""}, {"controle": "00394452000103/2026/21698", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "22/10/2026 10:00", "encerra_iso": "2026-10-22T10:00", "uf": "PA", "municipio": "Altamira", "orgao": "COMANDO DO EXERCITO", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 63/2026", "objeto": "Aquisição de materiais permanentes", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/00394452000103/2026/21698", "obs": ""}, {"controle": "95585444000142/2026/123", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "23/10/2026 00:00", "encerra_iso": "2026-10-23T00:00", "uf": "PR", "municipio": "Honório Serpa", "orgao": "MUNICIPIO DE HONORIO SERPA", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº PCE 27/2026", "objeto": "Registro de preços de materiais de expediente e itens correlatos", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/95585444000142/2026/123", "obs": ""}, {"controle": "76995448000154/2026/155", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "26/10/2026 08:59", "encerra_iso": "2026-10-26T08:59", "uf": "PR", "municipio": "Pato Branco", "orgao": "MUNICIPIO DE PATO BRANCO", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 59/2026", "objeto": "Fornecimento de equipamentos audiovisuais e multimídia", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/76995448000154/2026/155", "obs": ""}, {"controle": "18404889000138/2026/94", "novo": "SIM", "nivel": "A confirmar (itens indisponíveis)", "encerra": "26/10/2026 14:00", "encerra_iso": "2026-10-26T14:00", "uf": "MG", "municipio": "Novo Cruzeiro", "orgao": "MUNICIPIO DE NOVO CRUZEIRO", "modalidade": "Pregão - Eletrônico", "edital": "Edital nº 31/2026", "objeto": "Registro de preços de equipamentos, materiais e acessórios de informática", "itens_txt": "", "valor_3d": null, "link": "https://pncp.gov.br/app/editais/18404889000138/2026/94", "obs": ""}]};
+
+  var $ = function(id){return document.getElementById(id)};
+  var dados = [], ordem = {k:"nivel", dir:1}, nivel = "";
+  function rank(n){ return n.indexOf("Alta")===0?0 : n.indexOf("Média")===0?1 : 2; }
+
+  function diasAte(iso){
+    if(!iso) return null;
+    var d = new Date(iso.slice(0,16)); var h = new Date();
+    return Math.ceil((d - h) / 86400000);
+  }
+  function fmtData(iso){
+    if(!iso) return "";
+    var d = new Date(iso.slice(0,16));
+    return d.toLocaleDateString("pt-BR") + " " + d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+  }
+  function brl(v){ return v ? v.toLocaleString("pt-BR",{style:"currency",currency:"BRL"}) : "<span class='dt'>ver edital</span>"; }
+  function esc(s){ return String(s||"").replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]}); }
+  function tagNivel(n){
+    var c = n.indexOf("Alta")===0 ? "t-alta" : n.indexOf("Média")===0 ? "t-media" : "t-conf";
+    return "<span class='tag "+c+"'>"+esc(n.split(" (")[0])+"</span>";
+  }
+
+  function carregar(payload, fonte){
+    var hoje = new Date();
+    dados = (payload.itens||[]).filter(function(x){ var d = diasAte(x.encerra_iso); return d===null || d>=0; });
+    $("r-upd").textContent = payload.atualizado_em ? fmtData(payload.atualizado_em) : "-";
+    $("r-src").textContent = fonte;
+    popular("f-uf","uf"); popular("f-mod","modalidade");
+    render();
+  }
+  function popular(id,campo){
+    var sel=$(id), vals={};
+    dados.forEach(function(x){ if(x[campo]) vals[x[campo]]=1; });
+    while(sel.options.length>1) sel.remove(1);
+    Object.keys(vals).sort().forEach(function(v){ var o=document.createElement("option"); o.value=o.textContent=v; sel.appendChild(o); });
+  }
+
+  function filtrados(){
+    var q=$("f-q").value.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+    var uf=$("f-uf").value, mod=$("f-mod").value, prazo=parseInt($("f-prazo").value||"0",10);
+    return dados.filter(function(x){
+      if(uf && x.uf!==uf) return false;
+      if(mod && x.modalidade!==mod) return false;
+      if(nivel && x.nivel.indexOf(nivel)!==0) return false;
+      if(prazo){ var d=diasAte(x.encerra_iso); if(d===null||d>prazo) return false; }
+      if(q){
+        var t=[x.objeto,x.orgao,x.municipio,x.edital,x.itens_txt,x.obs].join(" ").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+        if(t.indexOf(q)<0) return false;
+      }
+      return true;
+    }).sort(function(a,b){
+      var k=ordem.k, va=a[k], vb=b[k];
+      if(k==="nivel"){ va=rank(a.nivel); vb=rank(b.nivel); }
+      if(va===null||va===undefined) va=""; if(vb===null||vb===undefined) vb="";
+      var c=(va>vb?1:va<vb?-1:0)*ordem.dir;
+      return c || ((a.encerra_iso||"")>(b.encerra_iso||"")?1:-1);
+    });
+  }
+
+  function render(){
+    var lista=filtrados(), html="";
+    lista.forEach(function(x){
+      var d=diasAte(x.encerra_iso), cls=d!==null&&d<=3?"urg":d!==null&&d<=7?"atn":"";
+      var txtD = d===null?"-": d===0?"Hoje": d===1?"1 dia": d+" dias";
+      html+="<tr>"+
+        "<td data-l='Relevância'>"+tagNivel(x.nivel)+(x.novo==="SIM"?"<span class='tag t-new'>Novo</span>":"")+"</td>"+
+        "<td data-l='Prazo'><div class='dias "+cls+"'>"+txtD+"</div><div class='dt'>"+esc(x.encerra)+"</div></td>"+
+        "<td data-l='UF'><span class='uf'>"+esc(x.uf)+"</span><div class='dt'>"+esc(x.municipio)+"</div></td>"+
+        "<td><div class='obj'>"+esc(x.objeto)+"</div><div class='org'>"+esc(x.orgao)+"</div>"+
+          (x.itens_txt?"<div class='org' style='white-space:pre-line;margin-top:4px'>"+esc(x.itens_txt)+"</div>":"")+
+          (x.obs?"<div class='obs'>"+esc(x.obs)+"</div>":"")+"</td>"+
+        "<td data-l='Modalidade'>"+esc(x.modalidade)+"</td>"+
+        "<td data-l='Valor 3D'>"+brl(x.valor_3d)+"</td>"+
+        "<td><a class='lnk' href='"+esc(x.link)+"' target='_blank' rel='noopener'>Abrir edital ↗</a><div class='dt'>"+esc(x.edital)+"</div></td>"+
+      "</tr>";
+    });
+    $("r-body").innerHTML = html || "<tr><td colspan='7' class='empty'>Nenhum pregão encontrado com esses filtros.</td></tr>";
+    $("r-count").textContent = lista.length+" de "+dados.length+" oportunidades";
+    $("k-total").textContent = dados.length;
+    $("k-alta").textContent = dados.filter(function(x){return x.nivel.indexOf("Alta")===0}).length;
+    $("k-urg").textContent = dados.filter(function(x){var d=diasAte(x.encerra_iso);return d!==null&&d<=7}).length;
+    var ufs={}; dados.forEach(function(x){ufs[x.uf]=1}); $("k-uf").textContent=Object.keys(ufs).length;
+  }
+
+  function csv(){
+    var cols=["nivel","encerra","uf","municipio","orgao","modalidade","edital","objeto","itens_txt","valor_3d","link","obs"];
+    var linhas=[cols.join(";")].concat(filtrados().map(function(x){
+      return cols.map(function(c){ return '"'+String(x[c]==null?"":x[c]).replace(/"/g,'""').replace(/\n/g," | ")+'"'; }).join(";");
+    }));
+    var blob=new Blob(["﻿"+linhas.join("\n")],{type:"text/csv;charset=utf-8"});
+    var a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+    a.download="pregoes_3d_"+new Date().toISOString().slice(0,10)+".csv"; a.click();
+  }
+
+  ["f-q","f-uf","f-mod","f-prazo"].forEach(function(id){ $(id).addEventListener(id==="f-q"?"input":"change",render); });
+  $("f-niv").addEventListener("click",function(e){
+    var b=e.target.closest(".r-chip"); if(!b) return;
+    nivel=b.getAttribute("data-v");
+    [].forEach.call(this.querySelectorAll(".r-chip"),function(c){c.classList.toggle("on",c===b)});
+    render();
+  });
+  $("b-clear").addEventListener("click",function(){
+    $("f-q").value=""; $("f-uf").value=""; $("f-mod").value=""; $("f-prazo").value=""; nivel="";
+    [].forEach.call(document.querySelectorAll("#f-niv .r-chip"),function(c,i){c.classList.toggle("on",i===0)});
+    render();
+  });
+  $("b-csv").addEventListener("click",csv);
+  [].forEach.call(document.querySelectorAll("#radar3d th[data-k]"),function(th){
+    th.addEventListener("click",function(){
+      var k=th.getAttribute("data-k");
+      ordem.dir = ordem.k===k ? -ordem.dir : 1; ordem.k=k;
+      [].forEach.call(document.querySelectorAll("#radar3d th[data-k]"),function(t){ t.classList.remove("sorted"); t.textContent=t.textContent.replace(/ [▲▼]$/,""); });
+      th.classList.add("sorted"); th.textContent += ordem.dir>0?" ▲":" ▼";
+      render();
+    });
+  });
+
+  if(CONFIG.DATA_URL){
+    fetch(CONFIG.DATA_URL+(CONFIG.DATA_URL.indexOf("?")<0?"?":"&")+"t="+Date.now())
+      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(j){ carregar(j,"Dados ao vivo do radar"); })
+      .catch(function(){ carregar(EMBUTIDO,"Exibindo último retrato salvo"); });
+  } else {
+    carregar(EMBUTIDO,"Retrato embutido na página");
+  }
+})();
+</script>
+</div>

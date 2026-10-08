@@ -1,0 +1,39 @@
+name: Radar Licitações 3D
+
+on:
+  schedule:
+    - cron: "0 10 * * 1-5"   # 7h de Brasília, segunda a sexta
+  workflow_dispatch:          # botão para rodar manualmente
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests openpyxl
+      - name: Rodar radar
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_PARA: ${{ secrets.EMAIL_PARA }}
+        run: python radar_licitacoes_3d.py
+      - name: Guardar planilha
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-3d
+          path: saida/*.xlsx
+      - name: Salvar histórico de editais vistos
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add vistos.json radar.json
+          git commit -m "Atualiza editais vistos" || echo "nada novo"
+          git push
