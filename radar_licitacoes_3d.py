@@ -52,9 +52,16 @@ TERMOS_BUSCA = [
 
 # Regex aplicada na descrição de cada item para confirmar relevância
 REGEX_3D = re.compile(
-    r"(impress\w*\s*(em\s*)?3\s*d|3\s*d\s*print|manufatura\s+aditiva|"
-    r"filamento|\bfdm\b|\bsla\b|resina\s+(para\s+)?(impress|3\s*d)|"
-    r"scanner\s*3\s*d|prototipag)",
+    r"(impress\w*\s*(em\s*)?3\s*d|3\s*d\s*print|manufatura\s+aditiva|scanner\s*3\s*d|"
+    r"filamento\w*\s*(de\s+|em\s+|tipo\s+)?(pla|abs|petg|tpu|asa|para\s+impress)\b|"
+    r"filamento.{0,80}(1[,.]75|2[,.]85)\s*mm|\b(pla|abs|petg)\b.{0,40}1[,.]75\s*mm|"
+    r"resina.{0,40}(impress\w*\s*3|3\s*d))",
+    re.IGNORECASE,
+)
+
+# Itens que citam 3D mas são produtos fabricados por impressão (não impressoras/insumos)
+REGEX_EXCLUIR = re.compile(
+    r"(coroa|ortese|protese|modelo\s+anatomico|resina\s+composta|sutura|implante)",
     re.IGNORECASE,
 )
 
@@ -142,7 +149,11 @@ def buscar_itens(cnpj, ano, seq):
 
 def classificar(edital, itens):
     objeto = f"{edital.get('title', '')} {edital.get('description', '')}"
-    hits = [it for it in itens if REGEX_3D.search(sem_acento(it.get("descricao", "")))]
+    hits = [
+        it for it in itens
+        if REGEX_3D.search(sem_acento(it.get("descricao", "")))
+        and not REGEX_EXCLUIR.search(sem_acento(it.get("descricao", "")))
+    ]
     no_objeto = bool(REGEX_3D.search(sem_acento(objeto)))
     if no_objeto:
         nivel = "Alta (3D no objeto)"
