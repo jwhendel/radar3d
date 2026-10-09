@@ -1,22 +1,6 @@
 {
- "atualizado_em": "2026-10-08T15:24-03:00",
+ "atualizado_em": "2026-10-09T13:59-03:00",
  "itens": [
-  {
-   "controle": "48031918000124-1-002714/2026",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "09/10/2026 08:00",
-   "encerra_iso": "2026-10-09T08:00",
-   "uf": "SP",
-   "municipio": "Bauru",
-   "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 3/2026",
-   "objeto": "AQUISIÇÃO DE SUPRIMENTOS PARA IMPRESSORA 3D",
-   "itens_txt": "Item 1: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d, característ (qtd 2.0)\nItem 2: Impressora 3d padrão: msla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb e wifi, área mínima de imp (qtd 3.0)\nItem 3: Impressora 3d padrão: msla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb e wifi, área mínima de imp (qtd 3.0)\nItem 4: Impressora 3d padrão: msla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb e wifi, área mínima de imp (qtd 3.0)\nItem 5: Impressora 3d padrão: msla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb e wifi, área mínima de imp (qtd 1.0)\nItem 6: Impressora 3d padrão: msla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb e wifi, área mínima de imp (qtd 1.0)\nItem 7: Peças E Componentes Copiadora / Impressora tipo: motor de passo, modelo: ender-3, código: 42-34, características adicion (qtd 1.0)",
-   "valor_3d": 1803.0,
-   "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2714"
-  },
   {
    "controle": "10784782000150-1-000415/2026",
    "novo": "NÃO",
@@ -66,6 +50,22 @@
    "link": "https://pncp.gov.br/app/editais/63025530000104/2026/3851"
   },
   {
+   "controle": "00394502000144-1-013336/2026",
+   "novo": "SIM",
+   "nivel": "Alta (3D no objeto)",
+   "encerra": "19/10/2026 08:00",
+   "encerra_iso": "2026-10-19T08:00",
+   "uf": "RN",
+   "municipio": "Natal",
+   "orgao": "COMANDO DA MARINHA",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 83/2026",
+   "objeto": "Aquisição de equipamentos, materiais de consumo, acessórios e componentes destinado à implantação e ao funcionamento de \nsolução de manufatura aditiva por tecnologia de fabricação por filamento fundido (FFF/FDM) na Base Naval de Natal, compreendendo impressora 3D, equipamentos de informática para modelagem, preparação e gerenciamento dos arquivos de impressão, no-break para proteção e continuidade de alimentação elétrica, filamentos para impressão 3D, componentes de reposição e manutenção.",
+   "itens_txt": "Item 1: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d Filamento pa (qtd 3.0)\nItem 2: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d Filamento pa (qtd 3.0)\nItem 3: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d Filamento pa (qtd 3.0)\nItem 4: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d Filamento pa (qtd 3.0)\nItem 5: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d Filamento pa (qtd 3.0)\nItem 6: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d Filamento pa (qtd 3.0)\nItem 7: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d Filamento pa (qtd 3.0)\nItem 8: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d Filamento pa (qtd 3.0)\nItem 9: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d Filamento pa (qtd 3.0)\nItem 10: Peça / Acessório - Impressora / Copiadora tipo 2: bico, aplicação 1: impressora 3d Conjunto Hotend 0,2 mm compatível com (qtd 1.0)\nItem 11: Peça / Acessório - Impressora / Copiadora tipo 2: bico, aplicação 1: impressora 3d Conjunto Hotend 0,4 mm compatível com (qtd 1.0)\nItem 12: Peça / Acessório - Impressora / Copiadora tipo 2: bico, aplicação 1: impressora 3d Conjunto Hotend 0,6 mm compatível com (qtd 1.0)\nItem 13: Peça / Acessório - Impressora / Copiadora tipo 2: tubo conector, aplicação 1: impressora 3d Tubo PTFE compatível com o s (qtd 3.0)\nItem 15: Impressora 3d padrão: fdm, tipo gabinete: aberto, material gabinete: alumínio, conexão: usb, lan(cabo), área mínima de i (qtd 1.0)",
+   "valor_3d": 10205.13,
+   "link": "https://pncp.gov.br/app/editais/00394502000144/2026/13336"
+  },
+  {
    "controle": "42441758000105-1-000171/2026",
    "novo": "NÃO",
    "nivel": "Alta (3D no objeto)",
@@ -112,22 +112,6 @@
    "itens_txt": "Item 1: SUPRIMENTO PARA IMPRESSORA 3D - IDENTIFICACAO: FILAMENTO DIAMETRO 1,75 MM; MATERIA-PRIMA: PLA (POLICIDO LATICO); (qtd 418.0)",
    "valor_3d": 38874.0,
    "link": "https://pncp.gov.br/app/editais/16695025000197/2026/994"
-  },
-  {
-   "controle": "78279973000107-1-000212/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "09/10/2026 08:30",
-   "encerra_iso": "2026-10-09T08:30",
-   "uf": "PR",
-   "municipio": "Turvo",
-   "orgao": "MUNICIPIO DE TURVO",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 50/2026",
-   "objeto": "REGISTRO DE PREÇOS PARA EVENTUAL AQUISIÇÃO DE MATERIAIS, FERRAMENTAS E EQUIPAMENTOS NECESSÁRIOS PARA A IMPLANTAÇÃO E FUNCIONAMENTO DO ESPAÇO MAKER NO MUNICÍPIO DE TURVO.",
-   "itens_txt": "Item 3: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 75.0)\nItem 9: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: aço, conexão: usb, área mínima de impressão: l (qtd 3.0)",
-   "valor_3d": 23014.260000000002,
-   "link": "https://pncp.gov.br/app/editais/78279973000107/2026/212"
   },
   {
    "controle": "83102574000106-1-000568/2026",
@@ -306,22 +290,6 @@
    "link": "https://pncp.gov.br/app/editais/87890992000158/2026/1047"
   },
   {
-   "controle": "00394429000100-1-002552/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "19/10/2026 09:00",
-   "encerra_iso": "2026-10-19T09:00",
-   "uf": "RN",
-   "municipio": "Natal",
-   "orgao": "COMANDO DA AERONAUTICA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 182/2026",
-   "objeto": "Aquisição de Equipamentos Para a Digitalização da Subdivisão de Odontologia do Núcleo do Hospital de Aeronáutica de Natal",
-   "itens_txt": "Item 3: Impressora 3d padrão: sla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb, alimentação: bivolt, padrã (qtd 1.0)",
-   "valor_3d": 27879.97,
-   "link": "https://pncp.gov.br/app/editais/00394429000100/2026/2552"
-  },
-  {
    "controle": "25944455000196-1-000117/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -336,6 +304,38 @@
    "itens_txt": "Item 2: Conjunto Manutenção Impressora / Copiadora características adicionais: espessura: 1,75 mm, componentes: filamento pla, t (qtd 8.0)",
    "valor_3d": 848.0,
    "link": "https://pncp.gov.br/app/editais/25944455000196/2026/117"
+  },
+  {
+   "controle": "00394452000103-1-021956/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "19/10/2026 09:00",
+   "encerra_iso": "2026-10-19T09:00",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "COMANDO DO EXERCITO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 111/2026",
+   "objeto": "Aquisição de insumos para a fabricação de protótipo da Caixa de Sapador",
+   "itens_txt": "Item 18: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento petg, tipo impressora: 3d, característ (qtd 5.0)\nItem 19: Conjunto Manutenção Impressora / Copiadora tipo: filamentos abs, tipo impressora: 3d, características adicionais: espess (qtd 5.0)",
+   "valor_3d": 963.75,
+   "link": "https://pncp.gov.br/app/editais/00394452000103/2026/21956"
+  },
+  {
+   "controle": "00394429000100-1-002552/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "19/10/2026 09:00",
+   "encerra_iso": "2026-10-19T09:00",
+   "uf": "RN",
+   "municipio": "Natal",
+   "orgao": "COMANDO DA AERONAUTICA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 182/2026",
+   "objeto": "Aquisição de Equipamentos Para a Digitalização da Subdivisão de Odontologia do Núcleo do Hospital de Aeronáutica de Natal",
+   "itens_txt": "Item 3: Impressora 3d padrão: sla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb, alimentação: bivolt, padrã (qtd 1.0)",
+   "valor_3d": 27879.97,
+   "link": "https://pncp.gov.br/app/editais/00394429000100/2026/2552"
   },
   {
    "controle": "17947581000176-1-000224/2026",
@@ -418,6 +418,22 @@
    "link": "https://pncp.gov.br/app/editais/76966860000146/2026/290"
   },
   {
+   "controle": "78680337000184-1-000359/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "22/10/2026 08:30",
+   "encerra_iso": "2026-10-22T08:30",
+   "uf": "PR",
+   "municipio": "Cascavel",
+   "orgao": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 1192/2026",
+   "objeto": "Materiais e insumos odontológicos para atender a demanda do Campus de Cascavel, do Campus de Foz do Iguaçu e do Hospital Universitário do Oeste do Paraná",
+   "itens_txt": "Item 74: (L74) 7003.101158-Sistema de Impressão 3D SLA, TIPO: Com módulo de lavagem e cura, USO: Laboratorial, ESPECIFICAÇÃO: IMP (qtd 10.0)",
+   "valor_3d": 19900.0,
+   "link": "https://pncp.gov.br/app/editais/78680337000184/2026/359"
+  },
+  {
    "controle": "21195755000169-1-000067/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -432,6 +448,54 @@
    "itens_txt": "Item 29: Impressora 3d padrão: msla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb, área mínima de impressão: (qtd 1.0)\nItem 55: Impressora 3d padrão: sla, tipo gabinete: fechado, material gabinete: estrutura metálica, área mínima de impressão: 353  (qtd 1.0)",
    "valor_3d": 95504.89,
    "link": "https://pncp.gov.br/app/editais/21195755000169/2026/67"
+  },
+  {
+   "controle": "11402887000160-1-000115/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "22/10/2026 09:00",
+   "encerra_iso": "2026-10-22T09:00",
+   "uf": "SC",
+   "municipio": "Florianópolis",
+   "orgao": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE SANTA CATARINA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 14/2026",
+   "objeto": "CONSUMO - ELETROELETRÔNICO",
+   "itens_txt": "Item 131: Broca material: carboneto de tungstenio, diâmetro: 1,2, tipo haste: cilíndrica, comprimento: 10, aplicação: furação de p (qtd 35.0)",
+   "valor_3d": 757.4,
+   "link": "https://pncp.gov.br/app/editais/11402887000160/2026/115"
+  },
+  {
+   "controle": "46151718000180-1-000603/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "23/10/2026 08:00",
+   "encerra_iso": "2026-10-23T08:00",
+   "uf": "SP",
+   "municipio": "Birigui",
+   "orgao": "MUNICIPIO DE BIRIGUI",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 123/2026",
+   "objeto": "AQUISIÇÃO DE EQUIPAMENTOS ELETROELETRÔNICOS, DE PROCESSAMENTO DE DADOS, AUTOMAÇÃO DE ATENDIMENTO, MONITORAMENTO E SUPORTE DOCUMENTAL PARA ATENDIMENTO DE DIVERSAS PASTAS DA ADMINISTRAÇÃO MUNICIPAL DE BIRIGUI, CONFORME ANEXOS I E II.",
+   "itens_txt": "Item 17: IMPRESSORA 3D, TECNOLOGIA DE IMPRESSÃO FDM, COM MÓDULO MULTI-MATERIAL INCLUSO, CONFORME ESPECIFICAÇÕES TÉCNICAS: Tipo de (qtd 1.0)",
+   "valor_3d": 6761.67,
+   "link": "https://pncp.gov.br/app/editais/46151718000180/2026/603"
+  },
+  {
+   "controle": "95591764000105-1-000277/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "23/10/2026 09:00",
+   "encerra_iso": "2026-10-23T09:00",
+   "uf": "RS",
+   "municipio": "Santa Maria",
+   "orgao": "UNIVERSIDADE FEDERAL DE SANTA MARIA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 48/2026",
+   "objeto": "Registro de Preços para aquisição de materiais elétricos eletrônicos para diversos setores da UFSM (lâmpadas LED, placa Arduino Uno R4 wifi, cabo multiplexado, kit diodos, sensor de temperatura etc.).",
+   "itens_txt": "Item 89: Conjunto Manutenção Impressora / Copiadora características adicionais: espessura 1.75 mm: diversas cores , unidade forne (qtd 10.0)\nItem 90: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d, característ (qtd 10.0)\nItem 316: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 45.0)\nItem 317: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 30.0)\nItem 318: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 15.0)\nItem 319: Impressora 3d tipo: caneta impressora, conexão: usb, padrão filamentos: abs e pla, características adicionais: 9 níveis  (qtd 5.0)",
+   "valor_3d": 15424.75,
+   "link": "https://pncp.gov.br/app/editais/95591764000105/2026/277"
   },
   {
    "controle": "95585444000142-1-000122/2026",
@@ -464,6 +528,22 @@
    "itens_txt": "Item 8: Filamento PLA para impressão 3D, diâmetro nominal de 1,75 mm, tolerância dimensional máxima de  0,05 mm, peso líquido mí (qtd 670.0)",
    "valor_3d": 72366.7,
    "link": "https://pncp.gov.br/app/editais/76995448000154/2026/155"
+  },
+  {
+   "controle": "75101873000190-1-000502/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "03/11/2026 09:00",
+   "encerra_iso": "2026-11-03T09:00",
+   "uf": "PR",
+   "municipio": "Medianeira",
+   "orgao": "UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 88/2026",
+   "objeto": "Futura e eventual aquisição de Material de Laboratório (Elétrica e Eletrônica).",
+   "itens_txt": "Item 147: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: aço, conexão: usb, área mínima de impressão: l (qtd 25.0)\nItem 148: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: aço, conexão: usb, área mínima de impressão: l (qtd 6.0)\nItem 152: Peça / Acessório - Impressora / Copiadora tipo 2: bloco aquecedor, aplicação 1: impressora 3d (qtd 6.0)\nItem 165: Peça / Acessório - Impressora / Copiadora tipo 2: bloco aquecedor, aplicação 1: impressora 3d (qtd 6.0)\nItem 167: Peça / Acessório - Impressora / Copiadora tipo 2: bloco aquecedor, aplicação 1: impressora 3d (qtd 6.0)\nItem 173: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: aço, conexão: usb, área mínima de impressão: 9 (qtd 10.0)\nItem 175: Impressora 3d padrão: msla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb e wifi, área mínima de imp (qtd 3.0)\nItem 176: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: aço, conexão: usb, área mínima de impressão: 9 (qtd 3.0)\nItem 181: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento, tipo impressora: 3d, capacidade: carr (qtd 25.0)\nItem 182: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento, tipo impressora: 3d, capacidade: carr (qtd 25.0)\nItem 183: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento, tipo impressora: 3d, capacidade: carr (qtd 25.0)\nItem 184: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento petg, tipo impressora: 3d, característ (qtd 25.0)\nItem 187: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento abs, tipo impressora: 3d, característi (qtd 40.0)\nItem 188: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento, tipo impressora: 3d, capacidade: carr (qtd 25.0)\nItem 189: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento, tipo impressora: 3d, capacidade: carr (qtd 15.0)\nItem 190: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d (qtd 15.0)\nItem 191: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento, tipo impressora: 3d, capacidade: carr (qtd 5.0)\nItem 193: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento, tipo impressora: 3d, capacidade: carr (qtd 5.0)\nItem 194: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento, tipo impressora: 3d, capacidade: carr (qtd 5.0)",
+   "valor_3d": 39661.28,
+   "link": "https://pncp.gov.br/app/editais/75101873000190/2026/502"
   },
   {
    "controle": "45787678000102-1-000269/2026",
