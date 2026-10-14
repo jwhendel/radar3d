@@ -1,38 +1,6 @@
 {
- "atualizado_em": "2026-10-13T14:33-03:00",
+ "atualizado_em": "2026-10-14T12:08-03:00",
  "itens": [
-  {
-   "controle": "75101873000190-1-000492/2026",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "14/10/2026 08:30",
-   "encerra_iso": "2026-10-14T08:30",
-   "uf": "PR",
-   "municipio": "Pato Branco",
-   "orgao": "UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 114/2026",
-   "objeto": "Aquisição de Impressoras 3D, Scanner 3D, e Máquina de Gravação à Laser para UTFPR Campus Pato Branco",
-   "itens_txt": "Item 1: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: vidro e perfil de alumínio, conexão: usb e wif (qtd 1.0)\nItem 2: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: alumínio, conexão: usb/cartão sd, área mínima  (qtd 10.0)\nItem 5: Impressora 3d padrão: msla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb e wifi, área mínima de imp (qtd 1.0)",
-   "valor_3d": 95640.93,
-   "link": "https://pncp.gov.br/app/editais/75101873000190/2026/492"
-  },
-  {
-   "controle": "63025530000104-1-003851/2026",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "14/10/2026 09:00",
-   "encerra_iso": "2026-10-14T09:00",
-   "uf": "SP",
-   "municipio": "São Paulo",
-   "orgao": "UNIVERSIDADE DE SAO PAULO",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 43/2026",
-   "objeto": "FORNECIMENTO DE IMPRESSORAS 3D E FILAMENTOS",
-   "itens_txt": "Item 1: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: vidro e perfil de alumínio, conexão: usb e wif (qtd 2.0)\nItem 2: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)\nItem 3: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)\nItem 4: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)\nItem 5: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)\nItem 6: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)\nItem 7: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)\nItem 8: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)\nItem 9: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)\nItem 10: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)\nItem 11: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 11.0)\nItem 12: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 2.0)\nItem 13: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 2.0)\nItem 14: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 2.0)\nItem 15: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 4.0)",
-   "valor_3d": 24381.73,
-   "link": "https://pncp.gov.br/app/editais/63025530000104/2026/3851"
-  },
   {
    "controle": "00394502000144-1-013336/2026",
    "novo": "NÃO",
@@ -98,8 +66,24 @@
    "link": "https://pncp.gov.br/app/editais/16695025000197/2026/994"
   },
   {
-   "controle": "63025530000104-1-004032/2026",
+   "controle": "45751435000106-1-000386/2026",
    "novo": "SIM",
+   "nivel": "Alta (3D no objeto)",
+   "encerra": "28/10/2026 08:30",
+   "encerra_iso": "2026-10-28T08:30",
+   "uf": "SP",
+   "municipio": "Paulínia",
+   "orgao": "MUNICIPIO DE PAULINIA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 175/2026",
+   "objeto": "AQUISIÇÃO DE IMPRESSORAS 3D E CORTADORA A LASER",
+   "itens_txt": "Item 1: IMPRESSORA 3D FECHADA COM VOLUME DE CONSTRUÇÃO 35X35X35CM (qtd 1.0)\nItem 2: IMPRESSORA 3D ABERTA DE GRANDE FORMATO, VOLUME DE IMPRESSÃO 260X260X300MM (qtd 2.0)\nItem 3: IMPRESSORA 3D ABERTA COM SISTEMA DE IMPRESSÃO MULTICOLORIDA, VOLUME DE IMPRESSÃO 260X260X300MM (qtd 2.0)",
+   "valor_3d": 23636.21,
+   "link": "https://pncp.gov.br/app/editais/45751435000106/2026/386"
+  },
+  {
+   "controle": "63025530000104-1-004032/2026",
+   "novo": "NÃO",
    "nivel": "Alta (3D no objeto)",
    "encerra": "05/11/2026 09:00",
    "encerra_iso": "2026-11-05T09:00",
@@ -112,38 +96,6 @@
    "itens_txt": "Item 1: Impressora 3d alimentação: 220, conexão: usb/cartão sd, material gabinete: aço carbono, padrão: fff/fdm, padrão filament (qtd 1.0)",
    "valor_3d": 218000.0,
    "link": "https://pncp.gov.br/app/editais/63025530000104/2026/4032"
-  },
-  {
-   "controle": "00394445000101-1-000257/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "14/10/2026 08:00",
-   "encerra_iso": "2026-10-14T08:00",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "MINISTERIO DA EDUCACAO",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 35/2026",
-   "objeto": "Materiais diversos para a organização pedagógica de espaços e para a realização de aulas no Colégio de Aplicação (CAp) do Departamento de Educação Básica (DEBASI) do Instituto Nacional de Educação de Surdos (INES), 101 ITENS QUE SERA CONTEMPLADO EM LOTE UNICO.",
-   "itens_txt": "Item 90: Impressora 3d Impressora 3d, Padrão:Fff/Fdm, Tipo Gabinete:Fechado, Material Gabinete:Vidro E Perfil De Alumínio, Conexã (qtd 1.0)\nItem 91: Peça / Acessório - Impressora / Copiadora Peça / Acessório - Impressora / Copiadora, Tipo 3:Caixa Seca De Filamento, Apl (qtd 3.0)\nItem 92: Peça / Acessório - Impressora / Copiadora Peça / Acessório - Impressora / Copiadora, Tipo 3:Caixa Seca De Filamento, Apl (qtd 3.0)",
-   "valor_3d": 7628.01,
-   "link": "https://pncp.gov.br/app/editais/00394445000101/2026/257"
-  },
-  {
-   "controle": "28523215000106-1-000347/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "14/10/2026 08:00",
-   "encerra_iso": "2026-10-14T08:00",
-   "uf": "RJ",
-   "municipio": "Niterói",
-   "orgao": "UNIVERSIDADE FEDERAL FLUMINENSE",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 136/2026",
-   "objeto": "Aquisição de Equipamentos e Materiais para laboratório de engenharia ",
-   "itens_txt": "Item 11: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: aço, conexão: usb, área mínima de impressão: 2 (qtd 1.0)",
-   "valor_3d": 1659.88,
-   "link": "https://pncp.gov.br/app/editais/28523215000106/2026/347"
   },
   {
    "controle": "78640489000153-1-000801/2026",
@@ -195,7 +147,7 @@
   },
   {
    "controle": "10763998000130-1-000152/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "16/10/2026 08:00",
    "encerra_iso": "2026-10-16T08:00",
@@ -224,22 +176,6 @@
    "itens_txt": "Item 32: Impressora 3d padrão: fff/fdm, tipo gabinete: aberto, conexão: usb, alimentação: bivolt, padrão filamentos: abs e pla, c (qtd 4.0)\nItem 65: Impressora 3d padrão: sla, tipo gabinete: fechado, material gabinete: estrutura metálica, área mínima de impressão: 353  (qtd 1.0)",
    "valor_3d": 30587.2,
    "link": "https://pncp.gov.br/app/editais/07775847000197/2026/45"
-  },
-  {
-   "controle": "25944455000196-1-000117/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "19/10/2026 09:00",
-   "encerra_iso": "2026-10-19T09:00",
-   "uf": "MG",
-   "municipio": "Florestal",
-   "orgao": "UNIVERSIDADE FEDERAL DE VICOSA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 75/2026",
-   "objeto": "Aquisição  de  materiais  de  consumo, materiais  laboratoriais  e  kits  didático-científicos,  destinados  ao  atendimento  das  atividades  práticas  de  ensino laboratoriais das áreas de Ciências Biológicas, Engenharia de Alimentos, Física e Química da Universidade Federal de  Viçosa  –  Campus  Florestal, contempladas  no  âmbito  do  Programa  de  Apoio  à  Modernização  e Manutenção  dos Laboratórios  Didáticos  –  PROLADI  2026.",
-   "itens_txt": "Item 2: Conjunto Manutenção Impressora / Copiadora características adicionais: espessura: 1,75 mm, componentes: filamento pla, t (qtd 8.0)",
-   "valor_3d": 848.0,
-   "link": "https://pncp.gov.br/app/editais/25944455000196/2026/117"
   },
   {
    "controle": "00394452000103-1-021956/2026",
@@ -272,6 +208,22 @@
    "itens_txt": "Item 3: Impressora 3d padrão: sla, tipo gabinete: fechado, material gabinete: polímero, conexão: usb, alimentação: bivolt, padrã (qtd 1.0)",
    "valor_3d": 27879.97,
    "link": "https://pncp.gov.br/app/editais/00394429000100/2026/2552"
+  },
+  {
+   "controle": "25944455000196-1-000117/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "19/10/2026 09:00",
+   "encerra_iso": "2026-10-19T09:00",
+   "uf": "MG",
+   "municipio": "Florestal",
+   "orgao": "UNIVERSIDADE FEDERAL DE VICOSA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 75/2026",
+   "objeto": "Aquisição  de  materiais  de  consumo, materiais  laboratoriais  e  kits  didático-científicos,  destinados  ao  atendimento  das  atividades  práticas  de  ensino laboratoriais das áreas de Ciências Biológicas, Engenharia de Alimentos, Física e Química da Universidade Federal de  Viçosa  –  Campus  Florestal, contempladas  no  âmbito  do  Programa  de  Apoio  à  Modernização  e Manutenção  dos Laboratórios  Didáticos  –  PROLADI  2026.",
+   "itens_txt": "Item 2: Conjunto Manutenção Impressora / Copiadora características adicionais: espessura: 1,75 mm, componentes: filamento pla, t (qtd 8.0)",
+   "valor_3d": 848.0,
+   "link": "https://pncp.gov.br/app/editais/25944455000196/2026/117"
   },
   {
    "controle": "17947581000176-1-000224/2026",
@@ -320,6 +272,22 @@
    "itens_txt": "Item 7: IMPRESSORA 3D INDUSTRIAL COM GABINETE FECHADO, TECNOLOGIA DE MODELAGEM POR DEPOSIÇÃO DE MATERIAL FUNDIDO (FDM) TECNOLOGI (qtd 1.0)",
    "valor_3d": 5772.33,
    "link": "https://pncp.gov.br/app/editais/07623069000110/2026/66"
+  },
+  {
+   "controle": "48031918000124-1-002843/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "21/10/2026 08:00",
+   "encerra_iso": "2026-10-21T08:00",
+   "uf": "SP",
+   "municipio": "Rosana",
+   "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 46/2026",
+   "objeto": "Aquisição de Materiais de Informá´tica",
+   "itens_txt": "Item 1: Impressora 3d alimentação: bivolt, características adicionais: mesa impressão com aquecimento, conexão: usb/cartão sd, m (qtd 1.0)",
+   "valor_3d": 10883.0,
+   "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2843"
   },
   {
    "controle": "83899526000182-1-000189/2026",
@@ -450,6 +418,22 @@
    "link": "https://pncp.gov.br/app/editais/95585444000142/2026/122"
   },
   {
+   "controle": "46384111000140-1-001171/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "23/10/2026 09:00",
+   "encerra_iso": "2026-10-23T09:00",
+   "uf": "SP",
+   "municipio": "São José do Rio Preto",
+   "orgao": "SAO PAULO SECRETARIA DA EDUCACAO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 5/2026",
+   "objeto": "AQUISIÇÃO DE MATERIAL DE TECNOLOGIA DA INFORMAÇÃO",
+   "itens_txt": "Item 3: Peça / Acessório - Impressora / Copiadora tipo 3: caixa seca de filamento, aplicação 1: impressora 3d, características a (qtd 1.0)",
+   "valor_3d": 153.39,
+   "link": "https://pncp.gov.br/app/editais/46384111000140/2026/1171"
+  },
+  {
    "controle": "76995448000154-1-000155/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -466,8 +450,40 @@
    "link": "https://pncp.gov.br/app/editais/76995448000154/2026/155"
   },
   {
-   "controle": "27142702000166-1-000456/2026",
+   "controle": "17702499000262-1-000117/2026",
    "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "26/10/2026 09:00",
+   "encerra_iso": "2026-10-26T09:00",
+   "uf": "MG",
+   "municipio": "Cataguases",
+   "orgao": "MUNICIPIO DE CATAGUASES",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 90/2026",
+   "objeto": "Registrar preços para futura e eventual contratação de empresa especializada no fornecimento de equipamentos eletroeletrônicos e acessórios destinados ao atendimento das necessidades dos Centros de Atenção Psicossocial Álcool e Drogas (CAPS AD) e Centro de Atenção Psicossocial (CAPS I)  da Secretaria de Saúde da Prefeitura Municipal de Cataguases/MG.",
+   "itens_txt": "Item 11: Impressora 3d padrão: fdm, tipo gabinete: aberto, material gabinete: alumínio, conexão: usb, lan(cabo), área mínima de i (qtd 5.0)\nItem 20: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 24.0)",
+   "valor_3d": 156170.58000000002,
+   "link": "https://pncp.gov.br/app/editais/17702499000262/2026/117"
+  },
+  {
+   "controle": "24464109000148-1-000153/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "26/10/2026 14:00",
+   "encerra_iso": "2026-10-26T14:00",
+   "uf": "AL",
+   "municipio": "Maceió",
+   "orgao": "UNIVERSIDADE FEDERAL DE ALAGOAS",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 167/2026",
+   "objeto": "EQUIPAMENTOS DE LABORATÓRIOS PARA UNIVERSIDADE FEDERAL DE ALAGOAS - CAMPUS DO SERTÃO",
+   "itens_txt": "Item 14: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: alumínio, conexão: usb/cartão sd, área mínima  (qtd 2.0)",
+   "valor_3d": 13810.0,
+   "link": "https://pncp.gov.br/app/editais/24464109000148/2026/153"
+  },
+  {
+   "controle": "27142702000166-1-000456/2026",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "27/10/2026 08:00",
    "encerra_iso": "2026-10-27T08:00",
@@ -482,8 +498,24 @@
    "link": "https://pncp.gov.br/app/editais/27142702000166/2026/456"
   },
   {
-   "controle": "24529265000140-1-000100/2026",
+   "controle": "63025530000104-1-004052/2026",
    "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "27/10/2026 08:29",
+   "encerra_iso": "2026-10-27T08:29",
+   "uf": "SP",
+   "municipio": "Ribeirão Preto",
+   "orgao": "UNIVERSIDADE DE SAO PAULO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 27/2026",
+   "objeto": "Aquisição de equipamentos, instrumentos e acessórios destinados à\nFaculdade de Odontologia de Ribeirão Preto – FORP/USP, divididos em 7\n(sete) lotes, com as especificações técnicas constantes do Anexo I deste\nTermo de Referência",
+   "itens_txt": "Item 16: Impressora 3d Impressora 3d, Padrão:Sla, Tipo Gabinete:Fechado, Conexão:Usb, Área Mínima De Impressão:Larg: 115 X Prof.: (qtd 1.0)",
+   "valor_3d": 3906.59,
+   "link": "https://pncp.gov.br/app/editais/63025530000104/2026/4052"
+  },
+  {
+   "controle": "24529265000140-1-000100/2026",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "27/10/2026 09:00",
    "encerra_iso": "2026-10-27T09:00",
@@ -499,7 +531,7 @@
   },
   {
    "controle": "46634580000170-1-000080/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "29/10/2026 08:45",
    "encerra_iso": "2026-10-29T08:45",
