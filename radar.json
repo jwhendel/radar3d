@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-15T11:53-03:00",
+ "atualizado_em": "2026-10-16T11:47-03:00",
  "itens": [
   {
    "controle": "00394502000144-1-013336/2026",
@@ -50,6 +50,22 @@
    "link": "https://pncp.gov.br/app/editais/76966860000146/2026/292"
   },
   {
+   "controle": "16695025000197-1-001048/2026",
+   "novo": "SIM",
+   "nivel": "Alta (3D no objeto)",
+   "encerra": "22/10/2026 08:00",
+   "encerra_iso": "2026-10-22T08:00:39",
+   "uf": "MG",
+   "municipio": "Belo Horizonte",
+   "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 130/2026",
+   "objeto": "Aquisição de impressora 3D e Suprimentos para a Polícia Militar de Minas Gerais",
+   "itens_txt": "Item 1: SUPRIMENTO PARA IMPRESSORA 3D - IDENTIFICACAO: FILAMENTO DIAMETRO 1,75 MM; MATERIA-PRIMA: PETG; (qtd 4.0)\nItem 2: IMPRESSORA 3D -  TECNOLOGIA DE IMPRESSAO: MODELAGEM POR DEPOSICAO FUNDIDA (FDM); VELOCIDADE DE IMPRESSAO: 400 A 700 MM/S (qtd 1.0)",
+   "valor_3d": 24273.95,
+   "link": "https://pncp.gov.br/app/editais/16695025000197/2026/1048"
+  },
+  {
    "controle": "16695025000197-1-000994/2026",
    "novo": "NÃO",
    "nivel": "Alta (3D no objeto)",
@@ -96,22 +112,6 @@
    "itens_txt": "Item 1: Impressora 3d alimentação: 220, conexão: usb/cartão sd, material gabinete: aço carbono, padrão: fff/fdm, padrão filament (qtd 1.0)",
    "valor_3d": 218000.0,
    "link": "https://pncp.gov.br/app/editais/63025530000104/2026/4032"
-  },
-  {
-   "controle": "10763998000130-1-000152/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "16/10/2026 08:00",
-   "encerra_iso": "2026-10-16T08:00",
-   "uf": "PA",
-   "municipio": "Óbidos",
-   "orgao": "INSTITUTO FEDERAL DE EDUCACAO,CIENCIA E TECNOLOGIA DO PARA",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 8/2026",
-   "objeto": "Aquisição de materiais de consumo, insumos e componentes eletroeletrônicos para o Laboratório de Inovação Tecnológica do Baixo Amazonas (LITBA) do Instituto Federal do Pará - Campus Óbidos.",
-   "itens_txt": "Item 1: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 80.0)\nItem 2: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 30.0)",
-   "valor_3d": 16601.2,
-   "link": "https://pncp.gov.br/app/editais/10763998000130/2026/152"
   },
   {
    "controle": "07775847000197-1-000045/2026",
@@ -227,7 +227,7 @@
   },
   {
    "controle": "60850575000125-1-000093/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "20/10/2026 08:00",
    "encerra_iso": "2026-10-20T08:00",
@@ -243,7 +243,7 @@
   },
   {
    "controle": "00394494000136-1-001163/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "20/10/2026 08:00",
    "encerra_iso": "2026-10-20T08:00",
@@ -288,6 +288,38 @@
    "itens_txt": "Item 7: IMPRESSORA 3D INDUSTRIAL COM GABINETE FECHADO, TECNOLOGIA DE MODELAGEM POR DEPOSIÇÃO DE MATERIAL FUNDIDO (FDM) TECNOLOGI (qtd 1.0)",
    "valor_3d": 5772.33,
    "link": "https://pncp.gov.br/app/editais/07623069000110/2026/66"
+  },
+  {
+   "controle": "04312401000138-1-000022/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "21/10/2026 00:59",
+   "encerra_iso": "2026-10-21T00:59:59",
+   "uf": "AM",
+   "municipio": "Manaus",
+   "orgao": "SECRETARIA DE ESTADO DE JUSTICA, DIREITOS HUMANOS E CIDADANIA",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº DLE 010/2026",
+   "objeto": "Contr. Serv. Trein. e Capac.",
+   "itens_txt": "Item 2: (ID150384) CONVENCOES, CONGRESSOS, FORUNS, SEMINARIOS E AFINS, Contratacao de empresa especializada em servico de WORKSH (qtd 1.0)",
+   "valor_3d": null,
+   "link": "https://pncp.gov.br/app/editais/04312401000138/2026/22"
+  },
+  {
+   "controle": "48031918000124-1-002888/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "21/10/2026 08:00",
+   "encerra_iso": "2026-10-21T08:00",
+   "uf": "SP",
+   "municipio": "Assis",
+   "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 207/2026",
+   "objeto": "Aquisição de peças para reposição/reparo de equipamentos.",
+   "itens_txt": "Item 16: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 2.0)",
+   "valor_3d": 220.0,
+   "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2888"
   },
   {
    "controle": "48031918000124-1-002843/2026",
@@ -336,6 +368,22 @@
    "itens_txt": "Item 3: Impressora 3d alimentação: bivolt, conexão: usb e wifi, material gabinete: polímero, padrão: msla, padrão filamentos: re (qtd 1.0)\nItem 4: Impressora 3d alimentação: bivolt, conexão: usb e wifi, material gabinete: polímero, padrão: msla, padrão filamentos: re (qtd 1.0)\nItem 5: Impressora 3d alimentação: bivolt, conexão: usb e wifi, material gabinete: polímero, padrão: msla, padrão filamentos: re (qtd 1.0)\nItem 6: Impressora 3d alimentação: bivolt, conexão: usb e wifi, material gabinete: polímero, padrão: msla, padrão filamentos: re (qtd 1.0)\nItem 7: Impressora 3d alimentação: 220 a 240, características adicionais: fonte de energia do processo: laser de fibra 30w, cone (qtd 1.0)\nItem 8: Impressora 3d alimentação: 220 a 240, características adicionais: fonte de energia do processo: laser de fibra 30w, cone (qtd 1.0)",
    "valor_3d": 42613.619999999995,
    "link": "https://pncp.gov.br/app/editais/76966860000146/2026/290"
+  },
+  {
+   "controle": "01610515000176-1-000101/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "21/10/2026 14:00",
+   "encerra_iso": "2026-10-21T14:00",
+   "uf": "RS",
+   "municipio": "Cristal do Sul",
+   "orgao": "MUNICIPIO DE CRISTAL DO SUL",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº PRD 49/2026",
+   "objeto": "AQUISIÇÃO DE PRODUTOS DIVERSOS, PARA PROGRAMAÇÃO DO OUTUBRO ROSA NO MUNICÍPIO.",
+   "itens_txt": "Item 1: Contratação de empresa especializada para fornecimento, chaveiro porta-objetos multiuso personalizado, alusivo à campanh (qtd 500.0)",
+   "valor_3d": 7500.0,
+   "link": "https://pncp.gov.br/app/editais/01610515000176/2026/101"
   },
   {
    "controle": "78680337000184-1-000359/2026",
@@ -387,7 +435,7 @@
   },
   {
    "controle": "03774819000102-1-000237/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "22/10/2026 09:30",
    "encerra_iso": "2026-10-22T09:30",
@@ -400,6 +448,22 @@
    "itens_txt": "Item 60001: 7005129\tSCANNER 3D PORTÁTIL (qtd 49.0)\nItem 70001: 7008008\tSCANNER 3D PORTÁTIL 0,05MM (qtd 1.0)",
    "valor_3d": null,
    "link": "https://pncp.gov.br/app/editais/03774819000102/2026/237"
+  },
+  {
+   "controle": "48031918000124-1-002900/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "23/10/2026 08:00",
+   "encerra_iso": "2026-10-23T08:00",
+   "uf": "SP",
+   "municipio": "Bauru",
+   "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 18/2026",
+   "objeto": "Aquisição de peças, equipamentos e acessórios de informática e materiais de insumos para 3D",
+   "itens_txt": "Item 7: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d, característ (qtd 2.0)\nItem 8: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento tpu, tipo impressora: 3d, característ (qtd 9.0)\nItem 9: Peças E Componentes Copiadora / Impressora código: 1918, modelo: ender-3, referência impressora: impressora 3d, tipo: ho (qtd 2.0)\nItem 10: Peças E Componentes Copiadora / Impressora tipo: motor de passo, modelo: ender-3, código: 42-34, características adicion (qtd 1.0)",
+   "valor_3d": 2300.0,
+   "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2900"
   },
   {
    "controle": "46151718000180-1-000603/2026",
@@ -563,7 +627,7 @@
   },
   {
    "controle": "10882594000165-1-000612/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "27/10/2026 10:00",
    "encerra_iso": "2026-10-27T10:00",
@@ -595,7 +659,7 @@
   },
   {
    "controle": "10358190000177-1-000353/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "29/10/2026 08:59",
    "encerra_iso": "2026-10-29T08:59",
@@ -610,8 +674,40 @@
    "link": "https://pncp.gov.br/app/editais/10358190000177/2026/353"
   },
   {
-   "controle": "32479123000143-1-000181/2026",
+   "controle": "00394452000103-1-022339/2026",
    "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "29/10/2026 09:00",
+   "encerra_iso": "2026-10-29T09:00",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "COMANDO DO EXERCITO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 278/2026",
+   "objeto": "Aquisição de materiais para o sistema de localização de alvos no âmbito do Programa Estratégico do Exército Astros-Fogos",
+   "itens_txt": "Item 6: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento abs, tipo impressora: 3d, característi (qtd 9.0)",
+   "valor_3d": 756.54,
+   "link": "https://pncp.gov.br/app/editais/00394452000103/2026/22339"
+  },
+  {
+   "controle": "35854176000195-1-000024/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "29/10/2026 09:00",
+   "encerra_iso": "2026-10-29T09:00",
+   "uf": "MT",
+   "municipio": "Rondonópolis",
+   "orgao": "UNIVERSIDADE FEDERAL DE RONDONOPOLIS",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 26/2026",
+   "objeto": "Aquisição de materiais diversos para uso em laboratórios de ensino, pesquisa e extensão da Universidade Federal de Rondonópolis, conforme condições, quantidades e exigências estabelecidas no Edital do Pregão Eletrônico 26/2026.",
+   "itens_txt": "Item 306: Impressora 3d Impressora 3d, Padrão:Fff/Fdm, Tipo Gabinete:Fechado, Material Gabinete:Vidro E Perfil De Alumínio, Conexã (qtd 1.0)\nItem 309: Impressora 3d Impressora 3d, Padrão:Fff/Fdm, Tipo Gabinete:Fechado, Material Gabinete:Aço, Conexão:Usb, Área Mínima De I (qtd 1.0)",
+   "valor_3d": 11641.09,
+   "link": "https://pncp.gov.br/app/editais/35854176000195/2026/24"
+  },
+  {
+   "controle": "32479123000143-1-000181/2026",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "29/10/2026 09:00",
    "encerra_iso": "2026-10-29T09:00",
@@ -626,8 +722,24 @@
    "link": "https://pncp.gov.br/app/editais/32479123000143/2026/181"
   },
   {
-   "controle": "75927582000155-1-000257/2026",
+   "controle": "75101873000190-1-000521/2026",
    "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "30/10/2026 09:00",
+   "encerra_iso": "2026-10-30T09:00",
+   "uf": "PR",
+   "municipio": "Ponta Grossa",
+   "orgao": "UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 15/2026",
+   "objeto": "Materiais Elétricos e Eletrônicos",
+   "itens_txt": "Item 111: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 5.0)",
+   "valor_3d": 1154.55,
+   "link": "https://pncp.gov.br/app/editais/75101873000190/2026/521"
+  },
+  {
+   "controle": "75927582000155-1-000257/2026",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "03/11/2026 09:00",
    "encerra_iso": "2026-11-03T09:00",
