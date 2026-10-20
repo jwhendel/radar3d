@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-19T13:57-03:00",
+ "atualizado_em": "2026-10-20T11:56-03:00",
  "itens": [
   {
    "controle": "76966860000146-1-000292/2026",
@@ -67,7 +67,7 @@
   },
   {
    "controle": "63025530000104-1-004149/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Alta (3D no objeto)",
    "encerra": "03/11/2026 08:00",
    "encerra_iso": "2026-11-03T08:00",
@@ -83,7 +83,7 @@
   },
   {
    "controle": "90836693000140-1-000819/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Alta (3D no objeto)",
    "encerra": "03/11/2026 14:00",
    "encerra_iso": "2026-11-03T14:00",
@@ -114,68 +114,20 @@
    "link": "https://pncp.gov.br/app/editais/63025530000104/2026/4032"
   },
   {
-   "controle": "60850575000125-1-000093/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "20/10/2026 08:00",
-   "encerra_iso": "2026-10-20T08:00",
-   "uf": "SP",
-   "municipio": "São Paulo",
-   "orgao": "PMSP - COMPANHIA METROPOLITANA DE HABITAÇÃO",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 94/2026",
-   "objeto": "AQUISIÇÃO DE MATERIAIS  DE INFORMÁTICA DESTINADOS A COHAB-SP, NOS TERMOS DAS ESPECIFICAÇÕES QUE INTEGRAM O PRESENTE TERMO DE REFERÊNCIA.",
-   "itens_txt": "Item 1: Peça / Acessório - Impressora / Copiadora aplicação 1: impressora 3d, características adicionais: diâmetro do filamento: (qtd 1.0)",
-   "valor_3d": 679.6,
-   "link": "https://pncp.gov.br/app/editais/60850575000125/2026/93"
-  },
-  {
-   "controle": "00394494000136-1-001163/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "20/10/2026 08:00",
-   "encerra_iso": "2026-10-20T08:00",
-   "uf": "DF",
-   "municipio": "Brasília",
-   "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 232/2026",
-   "objeto": "ROTULADOR ELETRÔNICO; Parafusadeira e Furadeira de Impacto 1/2 Pol 18V; Carrinho de Carga Armazém; Lupa de cabeça; Soprador De Ar Pó Potente Computador Notebook 110v/220v; Lacres De Segurança 16cm Numerados; Óleo protetivo de base parafínica para materiais ferrosos; Bore Snake CAL .22 ,556, .223 Limpeza De Cano; Panos Flanela Microfibra Multiuso Para Limpeza de Armas; Lubrificante Seco Antiaderente; LH Solvente; DESMUNICIADOR DE CARREGADORES DE FUZIL.",
-   "itens_txt": "Item 12: Acessórios Para Treinamento De Armamento Acessórios Para Treinamento De Armamento, Tipo:Fuzil Com Laser, Material:Plásti (qtd 10.0)",
-   "valor_3d": 250.0,
-   "link": "https://pncp.gov.br/app/editais/00394494000136/2026/1163"
-  },
-  {
-   "controle": "75101873000190-1-000491/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "20/10/2026 08:30",
-   "encerra_iso": "2026-10-20T08:30",
-   "uf": "PR",
-   "municipio": "Pato Branco",
-   "orgao": "UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA",
+   "controle": "17503475000101-1-000230/2026",
+   "novo": "SIM",
+   "nivel": "Alta (3D no objeto)",
+   "encerra": "26/11/2026 09:00",
+   "encerra_iso": "2026-11-26T09:00",
+   "uf": "MG",
+   "municipio": "Belo Horizonte",
+   "orgao": "FUNDACAO EZEQUIEL DIAS",
    "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 16/2026",
-   "objeto": "Aquisição de insumos de tecnologia da informação e comunicação (TIC), materiais de áudio, vídeo e foto, visando atender às demandas dos 13 campi e da Reitoria da Universidade Tecnológica Federal do Paraná (UTFPR)",
-   "itens_txt": "Item 16: Adesivo Uso Geral Adesivo Uso Geral, Apresentação:Spray, Composição:À Base De Acetona, Isobutano, Isomeros De Heptano, A (qtd 10.0)\nItem 42: Peça / Acessório - Impressora / Copiadora Peça / Acessório - Impressora / Copiadora, Tipo 2:Bico, Aplicação 1:Impressora (qtd 5.0)\nItem 43: Peça / Acessório - Impressora / Copiadora Peça / Acessório - Impressora / Copiadora, Tipo 2:Bico, Aplicação 1:Impressora (qtd 20.0)\nItem 44: Peça / Acessório - Impressora / Copiadora Peça / Acessório - Impressora / Copiadora, Tipo 2:Bico, Aplicação 1:Impressora (qtd 27.0)\nItem 45: Peça / Acessório - Impressora / Copiadora Peça / Acessório - Impressora / Copiadora, Tipo 2:Bico, Aplicação 1:Impressora (qtd 5.0)\nItem 46: Peça / Acessório - Impressora / Copiadora Peça / Acessório - Impressora / Copiadora, Tipo 2:Bico, Aplicação 1:Impressora (qtd 42.0)\nItem 91: Impressora 3d Impressora 3d, Tipo:Caneta Impressora, Conexão:Usb, Padrão Filamentos:Abs E Pla, Características Adicionai (qtd 90.0)\nItem 126: Peças E Componentes Copiadora / Impressora Peças E Componentes Copiadora / Impressora, Tipo:Hotend, Modelo:Ender-3, Códi (qtd 10.0)\nItem 142: Peça / Acessório - Impressora / Copiadora Peça / Acessório - Impressora / Copiadora, Tipo 2:Tracionador Do Extrussor, Re (qtd 45.0)\nItem 150: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 122.0)\nItem 151: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 10.0)\nItem 152: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 55.0)\nItem 153: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 144.0)\nItem 154: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 114.0)\nItem 155: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 156.0)\nItem 156: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 124.0)\nItem 157: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 197.0)\nItem 158: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 127.0)\nItem 159: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 133.0)\nItem 160: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 113.0)\nItem 161: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 83.0)\nItem 162: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 84.0)\nItem 163: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 75.0)\nItem 164: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 26.0)\nItem 165: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 21.0)\nItem 166: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 36.0)\nItem 167: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 32.0)\nItem 168: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 190.0)\nItem 169: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 15.0)\nItem 170: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 28.0)\nItem 171: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Filamento, Componentes:Filam (qtd 43.0)\nItem 219: Peça / Acessório - Impressora / Copiadora tipo 2: extrusora, referência 2: modelo v6, aplicação 1: impressora 3d (qtd 10.0)\nItem 303: Impressora 3d padrão: fff/fdm, tipo gabinete: fechado, material gabinete: vidro e perfil de alumínio, conexão: usb e wif (qtd 15.0)\nItem 318: Ventoinha Ventoinha, Material:Plástico, Formato:Cooler, Tensão:24 V, Dimensões:40 X 40 X 10 MM, Referência:Lusessesrbegh (qtd 20.0)",
-   "valor_3d": 325061.52,
-   "link": "https://pncp.gov.br/app/editais/75101873000190/2026/491"
-  },
-  {
-   "controle": "07623069000110-1-000066/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "20/10/2026 09:00",
-   "encerra_iso": "2026-10-20T09:00",
-   "uf": "CE",
-   "municipio": "Uruburetama",
-   "orgao": "MUNICIPIO DE URUBURETAMA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 020/2026.02/2026",
-   "objeto": "Aquisição de materiais permanentes: equipamentos de climatização, eletrodomésticos, mobiliários e equipamentos diversos, cadeiras e mesas de plástico destinados ao atendimento das necessidades das escolas da rede municipal de ensino junto à Secretaria de Educação do Município de Uruburetama",
-   "itens_txt": "Item 7: IMPRESSORA 3D INDUSTRIAL COM GABINETE FECHADO, TECNOLOGIA DE MODELAGEM POR DEPOSIÇÃO DE MATERIAL FUNDIDO (FDM) TECNOLOGI (qtd 1.0)",
-   "valor_3d": 5772.33,
-   "link": "https://pncp.gov.br/app/editais/07623069000110/2026/66"
+   "edital": "Edital nº 330/2026",
+   "objeto": "SERVIÇO ESPECIALIZADO EM MANUFATURA ADITIVA (IMPRESSAO 3D), COM ELABORACAO DO MODELO VIRTUAL TRIDIMENSIONAL",
+   "itens_txt": "Item 1: SERVICO ESPECIALIZADO EM MANUFATURA ADITIVA (IMPRESSAO 3D), COM ELABORACAO DO MODELO VIRTUAL TRIDIMENSIONAL  (qtd 1.0)",
+   "valor_3d": 51600.0,
+   "link": "https://pncp.gov.br/app/editais/17503475000101/2026/230"
   },
   {
    "controle": "04312401000138-1-000022/2026",
@@ -194,22 +146,6 @@
    "link": "https://pncp.gov.br/app/editais/04312401000138/2026/22"
   },
   {
-   "controle": "48031918000124-1-002888/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "21/10/2026 08:00",
-   "encerra_iso": "2026-10-21T08:00",
-   "uf": "SP",
-   "municipio": "Assis",
-   "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 207/2026",
-   "objeto": "Aquisição de peças para reposição/reparo de equipamentos.",
-   "itens_txt": "Item 16: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 2.0)",
-   "valor_3d": 220.0,
-   "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2888"
-  },
-  {
    "controle": "48031918000124-1-002843/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -224,6 +160,22 @@
    "itens_txt": "Item 1: Impressora 3d alimentação: bivolt, características adicionais: mesa impressão com aquecimento, conexão: usb/cartão sd, m (qtd 1.0)",
    "valor_3d": 10883.0,
    "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2843"
+  },
+  {
+   "controle": "48031918000124-1-002888/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "21/10/2026 08:00",
+   "encerra_iso": "2026-10-21T08:00",
+   "uf": "SP",
+   "municipio": "Assis",
+   "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 207/2026",
+   "objeto": "Aquisição de peças para reposição/reparo de equipamentos.",
+   "itens_txt": "Item 16: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 2.0)",
+   "valor_3d": 220.0,
+   "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2888"
   },
   {
    "controle": "83899526000182-1-000189/2026",
@@ -290,22 +242,6 @@
    "link": "https://pncp.gov.br/app/editais/78680337000184/2026/359"
   },
   {
-   "controle": "11402887000160-1-000115/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "22/10/2026 09:00",
-   "encerra_iso": "2026-10-22T09:00",
-   "uf": "SC",
-   "municipio": "Florianópolis",
-   "orgao": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE SANTA CATARINA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 14/2026",
-   "objeto": "CONSUMO - ELETROELETRÔNICO",
-   "itens_txt": "Item 131: Broca material: carboneto de tungstenio, diâmetro: 1,2, tipo haste: cilíndrica, comprimento: 10, aplicação: furação de p (qtd 35.0)",
-   "valor_3d": 757.4,
-   "link": "https://pncp.gov.br/app/editais/11402887000160/2026/115"
-  },
-  {
    "controle": "21195755000169-1-000067/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -338,22 +274,6 @@
    "link": "https://pncp.gov.br/app/editais/03774819000102/2026/237"
   },
   {
-   "controle": "48031918000124-1-002900/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "23/10/2026 08:00",
-   "encerra_iso": "2026-10-23T08:00",
-   "uf": "SP",
-   "municipio": "Bauru",
-   "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 18/2026",
-   "objeto": "Aquisição de peças, equipamentos e acessórios de informática e materiais de insumos para 3D",
-   "itens_txt": "Item 7: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d, característ (qtd 2.0)\nItem 8: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento tpu, tipo impressora: 3d, característ (qtd 9.0)\nItem 9: Peças E Componentes Copiadora / Impressora código: 1918, modelo: ender-3, referência impressora: impressora 3d, tipo: ho (qtd 2.0)\nItem 10: Peças E Componentes Copiadora / Impressora tipo: motor de passo, modelo: ender-3, código: 42-34, características adicion (qtd 1.0)",
-   "valor_3d": 2300.0,
-   "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2900"
-  },
-  {
    "controle": "46151718000180-1-000603/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -370,20 +290,20 @@
    "link": "https://pncp.gov.br/app/editais/46151718000180/2026/603"
   },
   {
-   "controle": "46384111000140-1-001171/2026",
+   "controle": "48031918000124-1-002900/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "23/10/2026 09:00",
-   "encerra_iso": "2026-10-23T09:00",
+   "encerra": "23/10/2026 08:00",
+   "encerra_iso": "2026-10-23T08:00",
    "uf": "SP",
-   "municipio": "São José do Rio Preto",
-   "orgao": "SAO PAULO SECRETARIA DA EDUCACAO",
+   "municipio": "Bauru",
+   "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
    "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 5/2026",
-   "objeto": "AQUISIÇÃO DE MATERIAL DE TECNOLOGIA DA INFORMAÇÃO",
-   "itens_txt": "Item 3: Peça / Acessório - Impressora / Copiadora tipo 3: caixa seca de filamento, aplicação 1: impressora 3d, características a (qtd 1.0)",
-   "valor_3d": 153.39,
-   "link": "https://pncp.gov.br/app/editais/46384111000140/2026/1171"
+   "edital": "Aviso de Contratação Direta nº 18/2026",
+   "objeto": "Aquisição de peças, equipamentos e acessórios de informática e materiais de insumos para 3D",
+   "itens_txt": "Item 7: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d, característ (qtd 2.0)\nItem 8: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento tpu, tipo impressora: 3d, característ (qtd 9.0)\nItem 9: Peças E Componentes Copiadora / Impressora código: 1918, modelo: ender-3, referência impressora: impressora 3d, tipo: ho (qtd 2.0)\nItem 10: Peças E Componentes Copiadora / Impressora tipo: motor de passo, modelo: ender-3, código: 42-34, características adicion (qtd 1.0)",
+   "valor_3d": 2300.0,
+   "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2900"
   },
   {
    "controle": "95591764000105-1-000277/2026",
@@ -416,6 +336,22 @@
    "itens_txt": "Item 97: Tinta Artística composição: a base de resina acrílica, tipo: dimensional relevo 3d metallic, cor: ouro, aplicação: artes (qtd 40.0)",
    "valor_3d": 216.0,
    "link": "https://pncp.gov.br/app/editais/95585444000142/2026/122"
+  },
+  {
+   "controle": "46384111000140-1-001171/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "23/10/2026 09:00",
+   "encerra_iso": "2026-10-23T09:00",
+   "uf": "SP",
+   "municipio": "São José do Rio Preto",
+   "orgao": "SAO PAULO SECRETARIA DA EDUCACAO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 5/2026",
+   "objeto": "AQUISIÇÃO DE MATERIAL DE TECNOLOGIA DA INFORMAÇÃO",
+   "itens_txt": "Item 3: Peça / Acessório - Impressora / Copiadora tipo 3: caixa seca de filamento, aplicação 1: impressora 3d, características a (qtd 1.0)",
+   "valor_3d": 153.39,
+   "link": "https://pncp.gov.br/app/editais/46384111000140/2026/1171"
   },
   {
    "controle": "76995448000154-1-000155/2026",
@@ -562,22 +498,6 @@
    "link": "https://pncp.gov.br/app/editais/10358190000177/2026/353"
   },
   {
-   "controle": "00394452000103-1-022339/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "29/10/2026 09:00",
-   "encerra_iso": "2026-10-29T09:00",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "COMANDO DO EXERCITO",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 278/2026",
-   "objeto": "Aquisição de materiais para o sistema de localização de alvos no âmbito do Programa Estratégico do Exército Astros-Fogos",
-   "itens_txt": "Item 6: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento abs, tipo impressora: 3d, característi (qtd 9.0)",
-   "valor_3d": 756.54,
-   "link": "https://pncp.gov.br/app/editais/00394452000103/2026/22339"
-  },
-  {
    "controle": "35854176000195-1-000024/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -608,6 +528,22 @@
    "itens_txt": "Item 96: Impressora 3d padrão: fdm, tipo gabinete: aberto, material gabinete: alumínio, conexão: usb, lan(cabo), área mínima de i (qtd 1.0)",
    "valor_3d": 5499.99,
    "link": "https://pncp.gov.br/app/editais/32479123000143/2026/181"
+  },
+  {
+   "controle": "00394452000103-1-022339/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "29/10/2026 09:00",
+   "encerra_iso": "2026-10-29T09:00",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "COMANDO DO EXERCITO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 278/2026",
+   "objeto": "Aquisição de materiais para o sistema de localização de alvos no âmbito do Programa Estratégico do Exército Astros-Fogos",
+   "itens_txt": "Item 6: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento abs, tipo impressora: 3d, característi (qtd 9.0)",
+   "valor_3d": 756.54,
+   "link": "https://pncp.gov.br/app/editais/00394452000103/2026/22339"
   },
   {
    "controle": "75101873000190-1-000521/2026",
@@ -656,6 +592,38 @@
    "itens_txt": "Item 5: Peça / Acessório - Impressora / Copiadora aplicação: pré-lavagem, lavagem final em impressora 3d odonto, características (qtd 10.0)",
    "valor_3d": 2232.0,
    "link": "https://pncp.gov.br/app/editais/75927582000155/2026/257"
+  },
+  {
+   "controle": "11402887000160-1-000115/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "03/11/2026 09:00",
+   "encerra_iso": "2026-11-03T09:00",
+   "uf": "SC",
+   "municipio": "Florianópolis",
+   "orgao": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE SANTA CATARINA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 14/2026",
+   "objeto": "CONSUMO - ELETROELETRÔNICO",
+   "itens_txt": "Item 131: Broca material: carboneto de tungstenio, diâmetro: 1,2, tipo haste: cilíndrica, comprimento: 10, aplicação: furação de p (qtd 35.0)",
+   "valor_3d": 757.4,
+   "link": "https://pncp.gov.br/app/editais/11402887000160/2026/115"
+  },
+  {
+   "controle": "07623069000110-1-000066/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "05/11/2026 08:30",
+   "encerra_iso": "2026-11-05T08:30",
+   "uf": "CE",
+   "municipio": "Uruburetama",
+   "orgao": "MUNICIPIO DE URUBURETAMA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 020/2026.02/2026",
+   "objeto": "Aquisição de materiais permanentes: equipamentos de climatização, eletrodomésticos, mobiliários e equipamentos diversos, cadeiras e mesas de plástico destinados ao atendimento das necessidades das escolas da rede municipal de ensino junto à Secretaria de Educação do Município de Uruburetama",
+   "itens_txt": "Item 7: IMPRESSORA 3D INDUSTRIAL COM GABINETE FECHADO, TECNOLOGIA DE MODELAGEM POR DEPOSIÇÃO DE MATERIAL FUNDIDO (FDM) TECNOLOGI (qtd 1.0)",
+   "valor_3d": 5772.33,
+   "link": "https://pncp.gov.br/app/editais/07623069000110/2026/66"
   },
   {
    "controle": "45787678000102-1-000269/2026",
