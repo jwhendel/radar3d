@@ -1,9 +1,9 @@
 {
- "atualizado_em": "2026-10-22T12:02-03:00",
+ "atualizado_em": "2026-10-23T11:53-03:00",
  "itens": [
   {
    "controle": "14485841000140-1-002789/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Alta (3D no objeto)",
    "encerra": "27/10/2026 16:30",
    "encerra_iso": "2026-10-27T16:30",
@@ -16,6 +16,22 @@
    "itens_txt": "Item 878642: IMPRESSORA 3D, volume de impressao no minimo 27 litros, gabinete totalmente fechado (qtd 3.0)",
    "valor_3d": 14612.58,
    "link": "https://pncp.gov.br/app/editais/14485841000140/2026/2789"
+  },
+  {
+   "controle": "46634101000115-1-000494/2026",
+   "novo": "SIM",
+   "nivel": "Alta (3D no objeto)",
+   "encerra": "27/10/2026 23:59",
+   "encerra_iso": "2026-10-27T23:59",
+   "uf": "SP",
+   "municipio": "Botucatu",
+   "orgao": "MUNICIPIO DE BOTUCATU",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 56/2026",
+   "objeto": "AQUISIÇÃO DE IMPRESSORA 3D E INSUMOS, PARA USO EM ATIVIDADES PEDAGÓGICAS DO NAPE, CONFORME EMENDA IMPOSITIVA Nº 16.",
+   "itens_txt": "Item 1: IMPRESSORA 3D DE ALTA VELOCIDADE E QUALIDADE, VOLUME DE CONSTRUÇÃO DE 256 X 256 X 256 MM, VELOCIDADE MÁXIMA DE IMPRESSÃO (qtd 1.0)\nItem 2: KIT DE FILAMENTOS PLA BASIC, AMARELO, AZUL-CIANO, BRANCO, ROSA-MAGENTA, 1,75MM FILAMENTO DE ALTA RESISTÊNCIA,  BIODEGRAD (qtd 1.0)",
+   "valor_3d": 20024.0,
+   "link": "https://pncp.gov.br/app/editais/46634101000115/2026/494"
   },
   {
    "controle": "45751435000106-1-000386/2026",
@@ -83,7 +99,7 @@
   },
   {
    "controle": "29138302000102-1-000261/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Alta (3D no objeto)",
    "encerra": "06/11/2026 09:59",
    "encerra_iso": "2026-11-06T09:59",
@@ -96,6 +112,22 @@
    "itens_txt": "Item 2310817: Disponibilização mensal de solução educacional de fabricação digital e prototipagem tridimensional, composta por impress (qtd 1080.0)\nItem 2310818: Filamento PLA ou PLA+ compatível com os equipamentos ofertados, destinado à composição do kit inicial de implantação, te (qtd 720.0)",
    "valor_3d": 1317733.2000000002,
    "link": "https://pncp.gov.br/app/editais/29138302000102/2026/261"
+  },
+  {
+   "controle": "01409580000138-1-001618/2026",
+   "novo": "NÃO",
+   "nivel": "Alta (3D no objeto)",
+   "encerra": "09/11/2026 09:00",
+   "encerra_iso": "2026-11-09T09:00",
+   "uf": "GO",
+   "municipio": "Goiânia",
+   "orgao": "ESTADO DE GOIAS",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 119963/2026",
+   "objeto": "Aquisição de equipamentos de digitalização tridimensional, sendo Scanner 3D Profissional e Scanner 3D Portátil, visando atender às demandas pedagógicas e tecnológicas das Escolas do Futuro de Goiás (EFGs), conforme especificações constantes no Termo de Referência.",
+   "itens_txt": "",
+   "valor_3d": null,
+   "link": "https://pncp.gov.br/app/editais/01409580000138/2026/1618"
   },
   {
    "controle": "17503475000101-1-000230/2026",
@@ -112,86 +144,6 @@
    "itens_txt": "Item 1: SERVICO ESPECIALIZADO EM MANUFATURA ADITIVA (IMPRESSAO 3D), COM ELABORACAO DO MODELO VIRTUAL TRIDIMENSIONAL  (qtd 1.0)",
    "valor_3d": 51600.0,
    "link": "https://pncp.gov.br/app/editais/17503475000101/2026/230"
-  },
-  {
-   "controle": "48031918000124-1-002900/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "23/10/2026 08:00",
-   "encerra_iso": "2026-10-23T08:00",
-   "uf": "SP",
-   "municipio": "Bauru",
-   "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 18/2026",
-   "objeto": "Aquisição de peças, equipamentos e acessórios de informática e materiais de insumos para 3D",
-   "itens_txt": "Item 7: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d, característ (qtd 2.0)\nItem 8: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento tpu, tipo impressora: 3d, característ (qtd 9.0)\nItem 9: Peças E Componentes Copiadora / Impressora código: 1918, modelo: ender-3, referência impressora: impressora 3d, tipo: ho (qtd 2.0)\nItem 10: Peças E Componentes Copiadora / Impressora tipo: motor de passo, modelo: ender-3, código: 42-34, características adicion (qtd 1.0)",
-   "valor_3d": 2300.0,
-   "link": "https://pncp.gov.br/app/editais/48031918000124/2026/2900"
-  },
-  {
-   "controle": "46151718000180-1-000603/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "23/10/2026 08:00",
-   "encerra_iso": "2026-10-23T08:00",
-   "uf": "SP",
-   "municipio": "Birigui",
-   "orgao": "MUNICIPIO DE BIRIGUI",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 123/2026",
-   "objeto": "AQUISIÇÃO DE EQUIPAMENTOS ELETROELETRÔNICOS, DE PROCESSAMENTO DE DADOS, AUTOMAÇÃO DE ATENDIMENTO, MONITORAMENTO E SUPORTE DOCUMENTAL PARA ATENDIMENTO DE DIVERSAS PASTAS DA ADMINISTRAÇÃO MUNICIPAL DE BIRIGUI, CONFORME ANEXOS I E II.",
-   "itens_txt": "Item 17: IMPRESSORA 3D, TECNOLOGIA DE IMPRESSÃO FDM, COM MÓDULO MULTI-MATERIAL INCLUSO, CONFORME ESPECIFICAÇÕES TÉCNICAS: Tipo de (qtd 1.0)",
-   "valor_3d": 6761.67,
-   "link": "https://pncp.gov.br/app/editais/46151718000180/2026/603"
-  },
-  {
-   "controle": "46384111000140-1-001171/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "23/10/2026 09:00",
-   "encerra_iso": "2026-10-23T09:00",
-   "uf": "SP",
-   "municipio": "São José do Rio Preto",
-   "orgao": "SAO PAULO SECRETARIA DA EDUCACAO",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 5/2026",
-   "objeto": "AQUISIÇÃO DE MATERIAL DE TECNOLOGIA DA INFORMAÇÃO",
-   "itens_txt": "Item 3: Peça / Acessório - Impressora / Copiadora tipo 3: caixa seca de filamento, aplicação 1: impressora 3d, características a (qtd 1.0)",
-   "valor_3d": 153.39,
-   "link": "https://pncp.gov.br/app/editais/46384111000140/2026/1171"
-  },
-  {
-   "controle": "95591764000105-1-000277/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "23/10/2026 09:00",
-   "encerra_iso": "2026-10-23T09:00",
-   "uf": "RS",
-   "municipio": "Santa Maria",
-   "orgao": "UNIVERSIDADE FEDERAL DE SANTA MARIA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 48/2026",
-   "objeto": "Registro de Preços para aquisição de materiais elétricos eletrônicos para diversos setores da UFSM (lâmpadas LED, placa Arduino Uno R4 wifi, cabo multiplexado, kit diodos, sensor de temperatura etc.).",
-   "itens_txt": "Item 89: Conjunto Manutenção Impressora / Copiadora características adicionais: espessura 1.75 mm: diversas cores , unidade forne (qtd 10.0)\nItem 90: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla, tipo impressora: 3d, característ (qtd 10.0)\nItem 316: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 45.0)\nItem 317: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 30.0)\nItem 318: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 15.0)\nItem 319: Impressora 3d tipo: caneta impressora, conexão: usb, padrão filamentos: abs e pla, características adicionais: 9 níveis  (qtd 5.0)",
-   "valor_3d": 15424.75,
-   "link": "https://pncp.gov.br/app/editais/95591764000105/2026/277"
-  },
-  {
-   "controle": "95585444000142-1-000122/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "23/10/2026 09:00",
-   "encerra_iso": "2026-10-23T09:00",
-   "uf": "PR",
-   "municipio": "Honório Serpa",
-   "orgao": "MUNICIPIO DE HONORIO SERPA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 12/2026",
-   "objeto": "Registro de Preços para futuras e eventuais aquisições de materiais de expediente e itens correlatos,\ndestinados a atender, de forma integrada, às necessidades dos Departamentos Municipais de Administração e\nPlanejamento, Agricultura, Pecuária e Meio Ambiente, Assistência Social, Educação e Saúde do Município de\nHonório Serpa/PR",
-   "itens_txt": "Item 97: Tinta Artística composição: a base de resina acrílica, tipo: dimensional relevo 3d metallic, cor: ouro, aplicação: artes (qtd 40.0)",
-   "valor_3d": 216.0,
-   "link": "https://pncp.gov.br/app/editais/95585444000142/2026/122"
   },
   {
    "controle": "10763998000130-1-000157/2026",
@@ -275,7 +227,7 @@
   },
   {
    "controle": "95548400000142-1-000090/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "26/10/2026 17:00",
    "encerra_iso": "2026-10-26T17:00",
@@ -291,7 +243,7 @@
   },
   {
    "controle": "00394502000144-1-014159/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "27/10/2026 08:00",
    "encerra_iso": "2026-10-27T08:00",
@@ -307,7 +259,7 @@
   },
   {
    "controle": "76416932000181-1-000405/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "27/10/2026 08:00",
    "encerra_iso": "2026-10-27T08:00",
@@ -482,6 +434,22 @@
    "link": "https://pncp.gov.br/app/editais/75101873000190/2026/521"
   },
   {
+   "controle": "75927582000155-1-000257/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "03/11/2026 09:00",
+   "encerra_iso": "2026-11-03T09:00",
+   "uf": "PR",
+   "municipio": "Santo Antônio do Sudoeste",
+   "orgao": "MUNICIPIO DE SANTO ANTONIO DO SUDOESTE",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 20/2026",
+   "objeto": "Aquisição de suprimentos de impressão, tintas, toners, cilindros, unidades de imagem, reveladores, peças, componentes, materiais, ferramentas e equipamentos destinados ao abastecimento, à manutenção preventiva e à manutenção corretiva do parque de impressoras do Município de Santo Antônio do Sudoeste – PR",
+   "itens_txt": "Item 5: Peça / Acessório - Impressora / Copiadora aplicação: pré-lavagem, lavagem final em impressora 3d odonto, características (qtd 10.0)",
+   "valor_3d": 2232.0,
+   "link": "https://pncp.gov.br/app/editais/75927582000155/2026/257"
+  },
+  {
    "controle": "11402887000160-1-000115/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -514,24 +482,8 @@
    "link": "https://pncp.gov.br/app/editais/75101873000190/2026/502"
   },
   {
-   "controle": "75927582000155-1-000257/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "03/11/2026 09:00",
-   "encerra_iso": "2026-11-03T09:00",
-   "uf": "PR",
-   "municipio": "Santo Antônio do Sudoeste",
-   "orgao": "MUNICIPIO DE SANTO ANTONIO DO SUDOESTE",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 20/2026",
-   "objeto": "Aquisição de suprimentos de impressão, tintas, toners, cilindros, unidades de imagem, reveladores, peças, componentes, materiais, ferramentas e equipamentos destinados ao abastecimento, à manutenção preventiva e à manutenção corretiva do parque de impressoras do Município de Santo Antônio do Sudoeste – PR",
-   "itens_txt": "Item 5: Peça / Acessório - Impressora / Copiadora aplicação: pré-lavagem, lavagem final em impressora 3d odonto, características (qtd 10.0)",
-   "valor_3d": 2232.0,
-   "link": "https://pncp.gov.br/app/editais/75927582000155/2026/257"
-  },
-  {
    "controle": "01611339000197-1-000181/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "04/11/2026 08:59",
    "encerra_iso": "2026-11-04T08:59",
@@ -579,7 +531,7 @@
   },
   {
    "controle": "01612323000107-1-000029/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "04/11/2026 17:00",
    "encerra_iso": "2026-11-04T17:00",
@@ -643,7 +595,7 @@
   },
   {
    "controle": "17879859000115-1-000122/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "05/11/2026 09:00",
    "encerra_iso": "2026-11-05T09:00",
@@ -659,7 +611,7 @@
   },
   {
    "controle": "00394452000103-1-001126/2027",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "05/11/2026 09:00",
    "encerra_iso": "2026-11-05T09:00",
@@ -690,6 +642,22 @@
    "link": "https://pncp.gov.br/app/editais/10652179000115/2026/380"
   },
   {
+   "controle": "10662072000158-1-000076/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "09/11/2026 09:00",
+   "encerra_iso": "2026-11-09T09:00",
+   "uf": "RS",
+   "municipio": "Santa Maria",
+   "orgao": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA FARROUPILHA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 67/2026",
+   "objeto": "AQUISIÇÃO DE COMPUTADORES E PERIFÉRICOS",
+   "itens_txt": "Item 25: Impressora 3d padrão: extrussado, tipo gabinete: aberto, material gabinete: aço, conexão: usb, área mínima de impressão: (qtd 5.0)",
+   "valor_3d": 67144.35,
+   "link": "https://pncp.gov.br/app/editais/10662072000158/2026/76"
+  },
+  {
    "controle": "18385088000172-1-000184/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -707,7 +675,7 @@
   },
   {
    "controle": "82939471000124-1-000035/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "18/11/2026 07:55",
    "encerra_iso": "2026-11-18T07:55",
@@ -720,6 +688,22 @@
    "itens_txt": "Item 54: CANETA 3D PARA EXTRUSAO DE FILAMENTO TERMOPLASTICO, NOVA, SEM USO, COM CARACTERiSTICAS TECNICAS IGUAIS OU SUPERIORES AS  (qtd 12.0)",
    "valor_3d": 1800.0,
    "link": "https://pncp.gov.br/app/editais/82939471000124/2026/35"
+  },
+  {
+   "controle": "45787678000102-1-000269/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "18/08/2029 09:00",
+   "encerra_iso": "2029-08-18T09:00",
+   "uf": "SP",
+   "municipio": "Valinhos",
+   "orgao": "MUNICIPIO DE VALINHOS",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 114/2026/2026",
+   "objeto": "Aquisição de materiais de consumo (utensílios pedagógicos e materiais educativos)",
+   "itens_txt": "Item 10: Kit peças anatômicas de gordura e músculo, réplica humano, de plástico, projetada para representar  fielmente o volume d (qtd 4.0)",
+   "valor_3d": 370.24,
+   "link": "https://pncp.gov.br/app/editais/45787678000102/2026/269"
   }
  ]
 }
