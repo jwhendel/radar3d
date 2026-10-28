@@ -1,54 +1,6 @@
 {
- "atualizado_em": "2026-10-27T12:52-03:00",
+ "atualizado_em": "2026-10-28T13:35-03:00",
  "itens": [
-  {
-   "controle": "14485841000140-1-002789/2026",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "27/10/2026 16:30",
-   "encerra_iso": "2026-10-27T16:30",
-   "uf": "BA",
-   "municipio": "Alagoinhas",
-   "orgao": "UNIVERSIDADE DO ESTADO DA BAHIA",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº PCE1124820260063/2026",
-   "objeto": "IMPRESSORA 3D",
-   "itens_txt": "Item 878642: IMPRESSORA 3D, volume de impressao no minimo 27 litros, gabinete totalmente fechado (qtd 3.0)",
-   "valor_3d": 14612.58,
-   "link": "https://pncp.gov.br/app/editais/14485841000140/2026/2789"
-  },
-  {
-   "controle": "46634101000115-1-000494/2026",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "27/10/2026 23:59",
-   "encerra_iso": "2026-10-27T23:59",
-   "uf": "SP",
-   "municipio": "Botucatu",
-   "orgao": "MUNICIPIO DE BOTUCATU",
-   "modalidade": "Dispensa",
-   "edital": "Aviso de Contratação Direta nº 56/2026",
-   "objeto": "AQUISIÇÃO DE IMPRESSORA 3D E INSUMOS, PARA USO EM ATIVIDADES PEDAGÓGICAS DO NAPE, CONFORME EMENDA IMPOSITIVA Nº 16.",
-   "itens_txt": "Item 1: IMPRESSORA 3D DE ALTA VELOCIDADE E QUALIDADE, VOLUME DE CONSTRUÇÃO DE 256 X 256 X 256 MM, VELOCIDADE MÁXIMA DE IMPRESSÃO (qtd 1.0)\nItem 2: KIT DE FILAMENTOS PLA BASIC, AMARELO, AZUL-CIANO, BRANCO, ROSA-MAGENTA, 1,75MM FILAMENTO DE ALTA RESISTÊNCIA,  BIODEGRAD (qtd 1.0)",
-   "valor_3d": 20024.0,
-   "link": "https://pncp.gov.br/app/editais/46634101000115/2026/494"
-  },
-  {
-   "controle": "45751435000106-1-000386/2026",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "28/10/2026 08:30",
-   "encerra_iso": "2026-10-28T08:30",
-   "uf": "SP",
-   "municipio": "Paulínia",
-   "orgao": "MUNICIPIO DE PAULINIA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 175/2026",
-   "objeto": "AQUISIÇÃO DE IMPRESSORAS 3D E CORTADORA A LASER",
-   "itens_txt": "Item 1: IMPRESSORA 3D FECHADA COM VOLUME DE CONSTRUÇÃO 35X35X35CM (qtd 1.0)\nItem 2: IMPRESSORA 3D ABERTA DE GRANDE FORMATO, VOLUME DE IMPRESSÃO 260X260X300MM (qtd 2.0)\nItem 3: IMPRESSORA 3D ABERTA COM SISTEMA DE IMPRESSÃO MULTICOLORIDA, VOLUME DE IMPRESSÃO 260X260X300MM (qtd 2.0)",
-   "valor_3d": 23636.21,
-   "link": "https://pncp.gov.br/app/editais/45751435000106/2026/386"
-  },
   {
    "controle": "63025530000104-1-004149/2026",
    "novo": "NÃO",
@@ -194,6 +146,22 @@
    "link": "https://pncp.gov.br/app/editais/10358190000177/2026/353"
   },
   {
+   "controle": "00394452000103-1-022339/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "29/10/2026 09:00",
+   "encerra_iso": "2026-10-29T09:00",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "COMANDO DO EXERCITO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 278/2026",
+   "objeto": "Aquisição de materiais para o sistema de localização de alvos no âmbito do Programa Estratégico do Exército Astros-Fogos",
+   "itens_txt": "Item 6: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento abs, tipo impressora: 3d, característi (qtd 9.0)",
+   "valor_3d": 756.54,
+   "link": "https://pncp.gov.br/app/editais/00394452000103/2026/22339"
+  },
+  {
    "controle": "35854176000195-1-000024/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -224,22 +192,6 @@
    "itens_txt": "Item 96: Impressora 3d padrão: fdm, tipo gabinete: aberto, material gabinete: alumínio, conexão: usb, lan(cabo), área mínima de i (qtd 1.0)",
    "valor_3d": 5499.99,
    "link": "https://pncp.gov.br/app/editais/32479123000143/2026/181"
-  },
-  {
-   "controle": "00394452000103-1-022339/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "29/10/2026 09:00",
-   "encerra_iso": "2026-10-29T09:00",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "COMANDO DO EXERCITO",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 278/2026",
-   "objeto": "Aquisição de materiais para o sistema de localização de alvos no âmbito do Programa Estratégico do Exército Astros-Fogos",
-   "itens_txt": "Item 6: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento abs, tipo impressora: 3d, característi (qtd 9.0)",
-   "valor_3d": 756.54,
-   "link": "https://pncp.gov.br/app/editais/00394452000103/2026/22339"
   },
   {
    "controle": "75101873000190-1-000521/2026",
@@ -274,6 +226,22 @@
    "link": "https://pncp.gov.br/app/editais/75927582000155/2026/257"
   },
   {
+   "controle": "11402887000160-1-000115/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "03/11/2026 09:00",
+   "encerra_iso": "2026-11-03T09:00",
+   "uf": "SC",
+   "municipio": "Florianópolis",
+   "orgao": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE SANTA CATARINA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 14/2026",
+   "objeto": "CONSUMO - ELETROELETRÔNICO",
+   "itens_txt": "Item 131: Broca material: carboneto de tungstenio, diâmetro: 1,2, tipo haste: cilíndrica, comprimento: 10, aplicação: furação de p (qtd 35.0)",
+   "valor_3d": 757.4,
+   "link": "https://pncp.gov.br/app/editais/11402887000160/2026/115"
+  },
+  {
    "controle": "75101873000190-1-000502/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -290,6 +258,22 @@
    "link": "https://pncp.gov.br/app/editais/75101873000190/2026/502"
   },
   {
+   "controle": "04312401000138-1-000024/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "04/11/2026 00:59",
+   "encerra_iso": "2026-11-04T00:59:59",
+   "uf": "AM",
+   "municipio": "Manaus",
+   "orgao": "SECRETARIA DE ESTADO DE JUSTICA, DIREITOS HUMANOS E CIDADANIA",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº DLE 012/2026",
+   "objeto": "Contr. Serv. Trein. e Capac / SEJUSC",
+   "itens_txt": "Item 2: (ID150384) CONVENCOES, CONGRESSOS, FORUNS, SEMINARIOS E AFINS, Contratacao de empresa especializada em servico de WORKSH (qtd 1.0)",
+   "valor_3d": null,
+   "link": "https://pncp.gov.br/app/editais/04312401000138/2026/24"
+  },
+  {
    "controle": "13099882000136-1-000055/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -304,6 +288,22 @@
    "itens_txt": "Item 8152730: Letreiro Monumental individual- Dimensões por Letra: 1,20m (Altura)  1,0m (Largura)  15cm (Profundidade). Laterais: Impr (qtd 12.0)\nItem 8152731: Letreiro Monumental individual- Dimensões por Letra: 1,20m (Altura)  1,0m (Largura)  15cm (Profundidade). Laterais: Impr (qtd 10.0)\nItem 8152732: Presépio Iluminado medindo (3,50m x 2,00m) Estrutura: Pórtico em metalon galvanizado com pintura anticorrosiva na cor pr (qtd 1.0)",
    "valor_3d": 39214.1,
    "link": "https://pncp.gov.br/app/editais/13099882000136/2026/55"
+  },
+  {
+   "controle": "78680337000770-1-000445/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "04/11/2026 08:59",
+   "encerra_iso": "2026-11-04T08:59",
+   "uf": "PR",
+   "municipio": "Cascavel",
+   "orgao": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANA",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 108/2026",
+   "objeto": "Materiais para o setor de Engenharia Clínica.",
+   "itens_txt": "Item 14: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento, tipo impressora: 3d, capacidade: carr (qtd 10.0)",
+   "valor_3d": null,
+   "link": "https://pncp.gov.br/app/editais/78680337000770/2026/445"
   },
   {
    "controle": "01611339000197-1-000181/2026",
@@ -370,6 +370,22 @@
    "link": "https://pncp.gov.br/app/editais/10723648000140/2026/143"
   },
   {
+   "controle": "13647854000106-1-000080/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "05/11/2026 08:00",
+   "encerra_iso": "2026-11-05T08:00",
+   "uf": "BA",
+   "municipio": "Olindina",
+   "orgao": "MUNICIPIO DE OLINDINA",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 032/2026",
+   "objeto": "Constitui objeto desta licitação a formação de Ata de Registro de Preços, pelo prazo de vigência estabelecido no edital, visando a aquisição de solução integrada para a implantação de 03 (três) unidades de Sala de Aula Tecnológica de Robótica e Cultura Maker na rede municipal de ensino. A solução compreende o fornecimento de mobiliário ergonômico e temático, equipamentos de informática (Chromebooks, notebooks e tablets), kits de robótica educacional de diversos níveis...",
+   "itens_txt": "Item 1: Constitui objeto desta licitação a formação de Ata de Registro de Preços, pelo prazo de vigência estabelecido no edital, (qtd 3.0)",
+   "valor_3d": 586099.11,
+   "link": "https://pncp.gov.br/app/editais/13647854000106/2026/80"
+  },
+  {
    "controle": "07623069000110-1-000066/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -400,6 +416,22 @@
    "itens_txt": "Item 18: Impressora 3d alimentação: 100-240, conexão: usb, lan(cabo), material gabinete: alumínio, padrão: fdm, padrão filamentos (qtd 1.0)\nItem 26: Sistema De Mapeamento Por Laser aplicação: varredura a laser 3d com captura topogr´afica, características adicionais: re (qtd 1.0)",
    "valor_3d": null,
    "link": "https://pncp.gov.br/app/editais/17879859000115/2026/122"
+  },
+  {
+   "controle": "00394452000103-1-001126/2027",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "05/11/2026 09:00",
+   "encerra_iso": "2026-11-05T09:00",
+   "uf": "PE",
+   "municipio": "Recife",
+   "orgao": "COMANDO DO EXERCITO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 15/2027",
+   "objeto": "Registro de preços para aquisição de material permanente (equipamentos médico-hospitalares) aprovados no Plano Anual das Atividades do Sistema de Saúde do Exército - PAASSEx 2027 (GCALC), para atender as necessidades do Hospital Militar de Área de Recife (HMAR) e órgãos participantes.",
+   "itens_txt": "Item 74: Equipamento - Uso Oftalmológico tipo: tomógrafo ótico, scanner 3d, componentes: monitor de vídeo integrado, aplicação: s (qtd 1.0)",
+   "valor_3d": 319666.75,
+   "link": "https://pncp.gov.br/app/editais/00394452000103/2027/1126"
   },
   {
    "controle": "10652179000115-1-000380/2026",
@@ -467,7 +499,7 @@
   },
   {
    "controle": "30899445000116-1-000058/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "10/11/2026 08:00",
    "encerra_iso": "2026-11-10T08:00",
@@ -483,7 +515,7 @@
   },
   {
    "controle": "10635424000186-1-000257/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "10/11/2026 08:00",
    "encerra_iso": "2026-11-10T08:00",
@@ -530,6 +562,38 @@
    "link": "https://pncp.gov.br/app/editais/07775847000197/2026/45"
   },
   {
+   "controle": "05149166000198-1-000060/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "11/11/2026 09:00",
+   "encerra_iso": "2026-11-11T09:00",
+   "uf": "PA",
+   "municipio": "Salinópolis",
+   "orgao": "MUNICIPIO DE SALINOPOLIS",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 60/2026",
+   "objeto": "AQUISIÇÃO DE MOBILIÁRIO E EQUIPAMENTOS PARA ATENDER ÀS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DE SALINÓPOLIS/PA. ",
+   "itens_txt": "Item 43: Impressora 3d Impressora 3d, Padrão:Sls, Tipo Gabinete:Fechado, Material Gabinete:Estrutura Metálica, Conexão:Usb E Wifi (qtd 20.0)\nItem 44: Impressora 3d Impressora 3d, Padrão:Sls, Tipo Gabinete:Fechado, Material Gabinete:Estrutura Metálica, Conexão:Usb E Wifi (qtd 30.0)\nItem 45: Impressora 3d Impressora 3d, Padrão:Sls, Tipo Gabinete:Fechado, Material Gabinete:Estrutura Metálica, Conexão:Usb E Wifi (qtd 25.0)",
+   "valor_3d": 203984.15,
+   "link": "https://pncp.gov.br/app/editais/05149166000198/2026/60"
+  },
+  {
+   "controle": "18025957000158-1-000149/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "11/11/2026 12:30",
+   "encerra_iso": "2026-11-11T12:30",
+   "uf": "MG",
+   "municipio": "Maria da Fé",
+   "orgao": "MUNICIPIO DE MARIA DA FE",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 169/2026",
+   "objeto": "RP PARA AQUISIÇÃO DE MATERIAIS E EQUIPAMENTOS EM ATENDIMENTO À DEMANDA DAS ESCOLAS DA REDE MUNICIPAL DE ENSINO, TUDO CONFORME ESPECIFICAÇÕES TÉCNICAS, QUANTITATIVOS CONSTANTES DO TERMO DE REFERÊNCIA.",
+   "itens_txt": "Item 3: IMPRESSORA 3D (qtd 1.0)",
+   "valor_3d": 9449.99,
+   "link": "https://pncp.gov.br/app/editais/18025957000158/2026/149"
+  },
+  {
    "controle": "75832170000131-1-000080/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -544,6 +608,22 @@
    "itens_txt": "Item 139: 423298 - Tinta Artística, Composição: A Base De Resina Acrílica, Tipo: Dimensional Relevo 3d Metallic, Cor: VARIADAS, Ap (qtd 20.0)",
    "valor_3d": 142.2,
    "link": "https://pncp.gov.br/app/editais/75832170000131/2026/80"
+  },
+  {
+   "controle": "63761936000155-1-000034/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "13/11/2026 09:00",
+   "encerra_iso": "2026-11-13T09:00",
+   "uf": "RO",
+   "municipio": "Itapuã do Oeste",
+   "orgao": "MUNICIPIO DE ITAPUA DO OESTE",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 28/2026",
+   "objeto": "[LICITANET] - Aquisição de materiais e equipamentos de informática, de natureza de consumo e permanente.",
+   "itens_txt": "Item 7808477: Impressora 3D - Kit de Montagem com Suprimentos (conforme descrição completa disponível no anexo III do edital) (qtd 2.0)\nItem 8158427: Impressora 3D - Kit de Montagem com Suprimentos (conforme descrição completa disponível no anexo III do edital) (qtd 2.0)",
+   "valor_3d": 5975.68,
+   "link": "https://pncp.gov.br/app/editais/63761936000155/2026/34"
   },
   {
    "controle": "45787678000102-1-000370/2026",
