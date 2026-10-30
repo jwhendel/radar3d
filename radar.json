@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-29T13:51-03:00",
+ "atualizado_em": "2026-10-30T13:41-03:00",
  "itens": [
   {
    "controle": "63025530000104-1-004149/2026",
@@ -66,36 +66,20 @@
    "link": "https://pncp.gov.br/app/editais/29138302000102/2026/261"
   },
   {
-   "controle": "01409580000138-1-001618/2026",
-   "novo": "NÃO",
+   "controle": "00394452000103-1-023377/2026",
+   "novo": "SIM",
    "nivel": "Alta (3D no objeto)",
-   "encerra": "09/11/2026 09:00",
-   "encerra_iso": "2026-11-09T09:00",
-   "uf": "GO",
-   "municipio": "Goiânia",
-   "orgao": "ESTADO DE GOIAS",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 119963/2026",
-   "objeto": "Aquisição de equipamentos de digitalização tridimensional, sendo Scanner 3D Profissional e Scanner 3D Portátil, visando atender às demandas pedagógicas e tecnológicas das Escolas do Futuro de Goiás (EFGs), conforme especificações constantes no Termo de Referência.",
-   "itens_txt": "",
-   "valor_3d": null,
-   "link": "https://pncp.gov.br/app/editais/01409580000138/2026/1618"
-  },
-  {
-   "controle": "92963560000160-1-001374/2026",
-   "novo": "NÃO",
-   "nivel": "Alta (3D no objeto)",
-   "encerra": "10/11/2026 08:59",
-   "encerra_iso": "2026-11-10T08:59",
+   "encerra": "09/11/2026 08:00",
+   "encerra_iso": "2026-11-09T08:00",
    "uf": "RS",
-   "municipio": "Porto Alegre",
-   "orgao": "MUNICIPIO DE PORTO ALEGRE",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 388/2026",
-   "objeto": "[Portal de Compras Públicas] - Contratação de empresa especializada para a prestação de serviços de levantamento de edificação com a utilização de Laser Scanner 3D, captura de nuvem de pontos e elaboração de modelo tridimensional (as-built), cadastramento de redes e instalações e modelagem com atributos, no prédio do Centro de Especialidades do IAPI, localizado na Rua Três de Abril, nº 90, bairro Passo d`Areia, Porto Alegre/RS.",
-   "itens_txt": "",
-   "valor_3d": null,
-   "link": "https://pncp.gov.br/app/editais/92963560000160/2026/1374"
+   "municipio": "Santa Maria",
+   "orgao": "COMANDO DO EXERCITO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 191/2026",
+   "objeto": "- Refil Filamento Pla Preto. Diâmetro: 1,75 mm; e \n- Refil Filamento Pla Ouro. Diâmetro: 1,75 mm",
+   "itens_txt": "Item 1: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 5.0)\nItem 2: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 1.0)",
+   "valor_3d": 763.22,
+   "link": "https://pncp.gov.br/app/editais/00394452000103/2026/23377"
   },
   {
    "controle": "17503475000101-1-000230/2026",
@@ -112,22 +96,6 @@
    "itens_txt": "Item 1: SERVICO ESPECIALIZADO EM MANUFATURA ADITIVA (IMPRESSAO 3D), COM ELABORACAO DO MODELO VIRTUAL TRIDIMENSIONAL  (qtd 1.0)",
    "valor_3d": 51600.0,
    "link": "https://pncp.gov.br/app/editais/17503475000101/2026/230"
-  },
-  {
-   "controle": "75101873000190-1-000521/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "30/10/2026 09:00",
-   "encerra_iso": "2026-10-30T09:00",
-   "uf": "PR",
-   "municipio": "Ponta Grossa",
-   "orgao": "UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 15/2026",
-   "objeto": "Materiais Elétricos e Eletrônicos",
-   "itens_txt": "Item 111: Conjunto Manutenção Impressora / Copiadora tipo: filamento, componentes: filamento pla/abs, tipo impressora: 3d, caracte (qtd 5.0)",
-   "valor_3d": 1154.55,
-   "link": "https://pncp.gov.br/app/editais/75101873000190/2026/521"
   },
   {
    "controle": "75927582000155-1-000257/2026",
@@ -240,6 +208,22 @@
    "itens_txt": "Item 57: Filamento termoplastico - Filamento termoplastico para impressora 3D, tipo [PLA / ABS / PETG], diametro de 1,75 mm... (qtd 20.0)",
    "valor_3d": 2210.0,
    "link": "https://pncp.gov.br/app/editais/01611339000197/2026/181"
+  },
+  {
+   "controle": "10628610000198-1-000019/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "04/11/2026 09:00",
+   "encerra_iso": "2026-11-04T09:00",
+   "uf": "PE",
+   "municipio": "Limoeiro",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 17/2026",
+   "objeto": "CONTRATAÇÃO DE EMPRESA PARA AQUISIÇÃO DE INSUMOS ODONTOLÓGICOS DESTINADOS ÀS UNIDADES DE SAÚDE E CEO (CENTRO DE ESPECIALIDADES ODONTOLÓGICAS) DA SECRETARIA DE SAÚDE DO MUNICÍPIO DE LIMOEIRO-PE, VISANDO O ATENDIMENTO DA DEMANDA POPULACIONAL.",
+   "itens_txt": "Item 150: Broca material: carboneto de tungstenio, diâmetro: 1,2, tipo haste: cilíndrica, comprimento: 10, aplicação: furação de p (qtd 15.0)",
+   "valor_3d": 985.5,
+   "link": "https://pncp.gov.br/app/editais/10628610000198/2026/19"
   },
   {
    "controle": "00394452000103-1-022615/2026",
@@ -370,6 +354,22 @@
    "link": "https://pncp.gov.br/app/editais/10652179000115/2026/380"
   },
   {
+   "controle": "78640489000153-1-000962/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "06/11/2026 08:00",
+   "encerra_iso": "2026-11-06T08:00",
+   "uf": "PR",
+   "municipio": "Londrina",
+   "orgao": "UNIVERSIDADE ESTADUAL DE LONDRINA",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 222/2026",
+   "objeto": "Aquisição de tonner, cartuchos, baterias diversas, pen drive e demais itens para informática e áudio",
+   "itens_txt": "Item 12: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 2.0)\nItem 13: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 4.0)\nItem 14: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 2.0)\nItem 15: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 4.0)\nItem 16: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 4.0)",
+   "valor_3d": 1857.68,
+   "link": "https://pncp.gov.br/app/editais/78640489000153/2026/962"
+  },
+  {
    "controle": "48031918000124-1-003030/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -466,6 +466,22 @@
    "link": "https://pncp.gov.br/app/editais/66991647000130/2026/303"
   },
   {
+   "controle": "18385088000172-1-000184/2026",
+   "novo": "NÃO",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "11/11/2026 08:00",
+   "encerra_iso": "2026-11-11T08:00",
+   "uf": "MG",
+   "municipio": "Manhuaçu",
+   "orgao": "MUNICIPIO DE MANHUACU",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 69/2026",
+   "objeto": "Contratação de empresa especializada para a execução integrada dos serviços de ornamentação natalina do evento \"Natal Luz 2026\", abrangendo a locação dos elementos decorativos e equipamentos necessários, transporte, montagem, instalação, operação, manutenção, suporte técnico e desmontagem, em locais da\r\nsede e dos distritos de Manhuaçu/MG.",
+   "itens_txt": "Item 39: CASA PAPAI NOEL  01 und Casa Papai Noel:  medindo 10 m de comprimento x 5 m de largura x 3,5 m de altura, jardim em gram (qtd 40.0)",
+   "valor_3d": 95466.8,
+   "link": "https://pncp.gov.br/app/editais/18385088000172/2026/184"
+  },
+  {
    "controle": "07775847000197-1-000045/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -483,7 +499,7 @@
   },
   {
    "controle": "83899526000182-1-000217/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "11/11/2026 09:00",
    "encerra_iso": "2026-11-11T09:00",
@@ -546,6 +562,54 @@
    "link": "https://pncp.gov.br/app/editais/75832170000131/2026/80"
   },
   {
+   "controle": "18685438000116-1-000091/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "12/11/2026 09:00",
+   "encerra_iso": "2026-11-12T09:00",
+   "uf": "MG",
+   "municipio": "Piedade do Rio Grande",
+   "orgao": "MUNICIPIO DE PIEDADE DO RIO GRANDE",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 00011426/2026",
+   "objeto": "Formação de Registro de Preço para o eventual fornecimento de material escolar e de escritório, cartuchos, toner e equipamentos de consumo em atendimento as secretarias municipais",
+   "itens_txt": "Item 217: TECIDO EM OXFORD SUBLIMADO ESTAMPADO180 gr/m² impressão 3D antichama para revestimento /decoração de palco conforme medi (qtd 600.0)",
+   "valor_3d": 7146.0,
+   "link": "https://pncp.gov.br/app/editais/18685438000116/2026/91"
+  },
+  {
+   "controle": "13460266000169-1-000087/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "12/11/2026 09:00",
+   "encerra_iso": "2026-11-12T09:00",
+   "uf": "BA",
+   "municipio": "Varzedo",
+   "orgao": "MUNICIPIO DE VARZEDO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 17/2026",
+   "objeto": "Futura e eventual aquisição de materiais odontológicos para atender as demandas do Fundo Municipal de Saúde do Município de Varzedo",
+   "itens_txt": "Item 118: Broca material: carboneto de tungstenio, diâmetro: 1,2, tipo haste: cilíndrica, comprimento: 10, aplicação: furação de p (qtd 20.0)",
+   "valor_3d": 3606.6,
+   "link": "https://pncp.gov.br/app/editais/13460266000169/2026/87"
+  },
+  {
+   "controle": "75771212000171-1-000094/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "13/11/2026 08:00",
+   "encerra_iso": "2026-11-13T08:00",
+   "uf": "PR",
+   "municipio": "Rio Bom",
+   "orgao": "MUNICIPIO DE RIO BOM",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 40/2026",
+   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE MATERIAIS DE\r\nEXPEDIENTE, PAPELARIA, ESCRITÓRIO E MATERIAIS CORRELATOS, DESTINADOS ÀS\r\nSECRETARIAS MUNICIPAIS E DEMAIS UNIDADES ADMINISTRATIVAS, EDUCACIONAIS E\r\nDE ATENDIMENTO DO MUNICÍPIO DE RIO BOM/PR.",
+   "itens_txt": "Item 250: KIT ALFABETO MARCADOR PARA CERÂMICA, destinado à personalização, identificação e gravação de letras em peças confecciona (qtd 1.0)\nItem 251: KIT CORTADOR PARA CONFECÇÃO DE JOGO DA VELHA EM CERÂMICA, MODELO 15 X 15 CM, destinado à modelagem e produção de peças c (qtd 2.0)",
+   "valor_3d": 482.29999999999995,
+   "link": "https://pncp.gov.br/app/editais/75771212000171/2026/94"
+  },
+  {
    "controle": "63761936000155-1-000034/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -560,22 +624,6 @@
    "itens_txt": "Item 7808477: Impressora 3D - Kit de Montagem com Suprimentos (conforme descrição completa disponível no anexo III do edital) (qtd 2.0)\nItem 8158427: Impressora 3D - Kit de Montagem com Suprimentos (conforme descrição completa disponível no anexo III do edital) (qtd 2.0)",
    "valor_3d": 5975.68,
    "link": "https://pncp.gov.br/app/editais/63761936000155/2026/34"
-  },
-  {
-   "controle": "45787678000102-1-000370/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "17/11/2026 08:59",
-   "encerra_iso": "2026-11-17T08:59",
-   "uf": "SP",
-   "municipio": "Valinhos",
-   "orgao": "MUNICIPIO DE VALINHOS",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº reabertura 114/2026/2026",
-   "objeto": "Aquisição de materiais de consumo (utensílios pedagógicos e materiais educativos)",
-   "itens_txt": "Item 10: Kit peças anatômicas de gordura e músculo, réplica humano, de plástico, projetada para representar  fielmente o volume d (qtd 4.0)",
-   "valor_3d": 370.24,
-   "link": "https://pncp.gov.br/app/editais/45787678000102/2026/370"
   },
   {
    "controle": "82939471000124-1-000035/2026",
@@ -595,7 +643,7 @@
   },
   {
    "controle": "15126437000305-1-004467/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "09/12/2026 09:00",
    "encerra_iso": "2026-12-09T09:00",
@@ -608,22 +656,6 @@
    "itens_txt": "Item 63: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 12.0)\nItem 64: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 18.0)\nItem 65: Conjunto Manutenção Impressora / Copiadora Conjunto Manutenção Impressora / Copiadora, Tipo:Original, Componentes:Filame (qtd 18.0)\nItem 66: Peça / Acessório - Impressora / Copiadora Peça / Acessório - Impressora / Copiadora, Tipo 3:Caixa Seca De Filamento, Apl (qtd 1.0)",
    "valor_3d": null,
    "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4467"
-  },
-  {
-   "controle": "45787678000102-1-000269/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "18/08/2029 09:00",
-   "encerra_iso": "2029-08-18T09:00",
-   "uf": "SP",
-   "municipio": "Valinhos",
-   "orgao": "MUNICIPIO DE VALINHOS",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 114/2026/2026",
-   "objeto": "Aquisição de materiais de consumo (utensílios pedagógicos e materiais educativos)",
-   "itens_txt": "Item 10: Kit peças anatômicas de gordura e músculo, réplica humano, de plástico, projetada para representar  fielmente o volume d (qtd 4.0)",
-   "valor_3d": 370.24,
-   "link": "https://pncp.gov.br/app/editais/45787678000102/2026/269"
   }
  ]
 }
