@@ -82,19 +82,35 @@ SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
 
-def get_json(url, params=None, tentativas=3):
+class FalhaPNCP(Exception):
+    """O PNCP não respondeu mesmo após todas as tentativas."""
+
+
+def get_json(url, params=None, tentativas=6):
+    """GET com novas tentativas e espera crescente (5, 10, 20, 40, 60 s).
+    Retorna None quando não há conteúdo e levanta FalhaPNCP se o portal não responder."""
     for i in range(tentativas):
         try:
-            r = SESSION.get(url, params=params, timeout=40)
+            r = SESSION.get(url, params=params, timeout=60)
             if r.status_code == 204:
+                return None
+            if r.status_code == 404:
                 return None
             r.raise_for_status()
             return r.json()
         except Exception as e:  # noqa: BLE001
             if i == tentativas - 1:
                 print(f"  ! falha em {url}: {e}", file=sys.stderr)
-                return None
-            time.sleep(2 * (i + 1))
+                raise FalhaPNCP(str(e)) from e
+            time.sleep(min(5 * 2 ** i, 60))
+
+
+# Caracteres de controle que o Excel não aceita (vieram em descrições de itens do PNCP)
+_CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+
+
+def limpar(txt):
+    return _CTRL.sub(" ", txt) if isinstance(txt, str) else txt
 
 
 def sem_acento(txt):
@@ -103,26 +119,30 @@ def sem_acento(txt):
 
 # ---------------------------------------------------------------- coleta
 def buscar_editais(termo, max_paginas=10):
+    """Retorna (resultados, ok). ok=False se o PNCP falhou nessa busca."""
     resultados = []
     for pagina in range(1, max_paginas + 1):
-        dados = get_json(
-            BASE_BUSCA,
-            {
-                "q": termo,
-                "tipos_documento": "edital",
-                "ordenacao": "-data",
-                "pagina": pagina,
-                "tam_pagina": 100,
-                "status": "recebendo_proposta",
-            },
-        )
+        try:
+            dados = get_json(
+                BASE_BUSCA,
+                {
+                    "q": termo,
+                    "tipos_documento": "edital",
+                    "ordenacao": "-data",
+                    "pagina": pagina,
+                    "tam_pagina": 100,
+                    "status": "recebendo_proposta",
+                },
+            )
+        except FalhaPNCP:
+            return resultados, False
         if not dados or not dados.get("items"):
             break
         resultados.extend(dados["items"])
         if len(dados["items"]) < 100:
             break
-        time.sleep(0.5)
-    return resultados
+        time.sleep(1)
+    return resultados, True
 
 
 def chave_edital(item):
@@ -134,12 +154,16 @@ def chave_edital(item):
 
 
 def buscar_itens(cnpj, ano, seq):
+    """Lista de itens do edital, ou None se o PNCP não respondeu."""
     itens, pagina = [], 1
     while True:
-        dados = get_json(
-            BASE_ITENS.format(cnpj=cnpj, ano=ano, seq=seq),
-            {"pagina": pagina, "tamanhoPagina": 500},
-        )
+        try:
+            dados = get_json(
+                BASE_ITENS.format(cnpj=cnpj, ano=ano, seq=seq),
+                {"pagina": pagina, "tamanhoPagina": 500},
+            )
+        except FalhaPNCP:
+            return None
         if not dados:
             break
         itens.extend(dados)
@@ -151,6 +175,7 @@ def buscar_itens(cnpj, ano, seq):
 
 def classificar(edital, itens):
     objeto = f"{edital.get('title', '')} {edital.get('description', '')}"
+    itens = itens or []
     hits = [
         it for it in itens
         if REGEX_3D.search(sem_acento(it.get("descricao", "")))
@@ -164,7 +189,7 @@ def classificar(edital, itens):
         nivel = "Alta (3D no objeto)"
     elif hits:
         nivel = "Média (item 3D dentro de lote)"
-    elif not itens:
+    elif not itens:  # [] sem itens publicados, ou None se o PNCP falhou
         nivel = "A confirmar (itens indisponíveis)"
     else:
         nivel = None  # descartado: nenhum item 3D
@@ -222,7 +247,7 @@ def gerar_planilha(linhas, caminho):
         ]
         cor = next((v for k, v in cores.items() if l["nivel"].startswith(k)), None)
         for cidx, v in enumerate(valores, 1):
-            c = ws.cell(row=r, column=cidx, value=v)
+            c = ws.cell(row=r, column=cidx, value=limpar(v))
             c.alignment = Alignment(vertical="top", wrap_text=True)
             if cor:
                 c.fill = PatternFill("solid", fgColor=cor)
@@ -266,17 +291,35 @@ def enviar_email(linhas, anexo):
 
 
 # ---------------------------------------------------------------- principal
+def carregar_anterior():
+    arq = PASTA / "radar.json"
+    if arq.exists():
+        try:
+            return json.loads(arq.read_text(encoding="utf-8")).get("itens", [])
+        except ValueError:
+            return []
+    return []
+
+
 def main():
+    agora = datetime.now(ZoneInfo("America/Sao_Paulo"))
     print("Buscando editais no PNCP...")
-    editais = {}
+    editais, termos_falhos = {}, []
     for termo in TERMOS_BUSCA:
-        achados = buscar_editais(termo)
-        print(f"  '{termo}': {len(achados)}")
+        achados, ok = buscar_editais(termo)
+        print(f"  '{termo}': {len(achados)}" + ("" if ok else "  (PNCP falhou)"))
+        if not ok:
+            termos_falhos.append(termo)
         for e in achados:
             ch = chave_edital(e)
             if ch:
                 editais.setdefault(ch, e)
+        time.sleep(2)
     print(f"{len(editais)} editais únicos. Conferindo itens...")
+
+    if not editais and termos_falhos:
+        print("PNCP fora do ar: nenhum dado novo. Mantendo o painel anterior.")
+        sys.exit(0)
 
     vistos = carregar_vistos()
     linhas = []
@@ -287,7 +330,7 @@ def main():
             continue
         controle = e.get("numero_controle_pncp") or f"{cnpj}-{ano}-{seq}"
         valor_3d = sum(float(h.get("valorTotal") or 0) for h in hits) or None
-        linhas.append({
+        linhas.append({k: limpar(v) for k, v in {
             "controle": controle,
             "novo": "NÃO" if controle in vistos else "SIM",
             "nivel": nivel,
@@ -305,24 +348,42 @@ def main():
             ),
             "valor_3d": valor_3d,
             "link": LINK_EDITAL.format(cnpj=cnpj, ano=ano, seq=seq),
-        })
+        }.items()})
         time.sleep(0.3)
+
+    # Se alguma busca falhou, mantém as oportunidades ainda abertas da execução anterior
+    # para o painel não "perder" editais só porque o PNCP oscilou.
+    if termos_falhos:
+        atuais = {l["controle"] for l in linhas}
+        hoje_iso = agora.strftime("%Y-%m-%dT%H:%M")
+        mantidas = [
+            {**l, "novo": "NÃO"} for l in carregar_anterior()
+            if l.get("controle") not in atuais and (l.get("encerra_iso") or "9") >= hoje_iso
+        ]
+        linhas.extend(mantidas)
+        print(f"{len(mantidas)} oportunidades mantidas da execução anterior "
+              f"(buscas com falha: {', '.join(termos_falhos)})")
 
     def rank(n):
         return 0 if n.startswith("Alta") else 1 if n.startswith("Média") else 2
     linhas.sort(key=lambda l: (rank(l["nivel"]), l["encerra_iso"]))
 
-    PASTA_SAIDA.mkdir(exist_ok=True)
-    arq = PASTA_SAIDA / f"radar_3d_{datetime.now(ZoneInfo('America/Sao_Paulo')):%Y-%m-%d}.xlsx"
-    gerar_planilha(linhas, arq)
-    # JSON lido pelo painel HTML (painel_pregoes.html)
+    # 1º o JSON do painel (o mais importante), depois planilha e e-mail
     (PASTA / "radar.json").write_text(json.dumps({
-        "atualizado_em": datetime.now(ZoneInfo('America/Sao_Paulo')).isoformat(timespec="minutes"),
+        "atualizado_em": agora.isoformat(timespec="minutes"),
         "itens": linhas,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     salvar_vistos(vistos | {l["controle"] for l in linhas})
-    print(f"{len(linhas)} oportunidades salvas em {arq}")
-    enviar_email(linhas, arq)
+    print(f"{len(linhas)} oportunidades no painel")
+
+    PASTA_SAIDA.mkdir(exist_ok=True)
+    arq = PASTA_SAIDA / f"radar_3d_{agora:%Y-%m-%d}.xlsx"
+    try:
+        gerar_planilha(linhas, arq)
+        print(f"Planilha salva em {arq}")
+        enviar_email(linhas, arq)
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! planilha/e-mail falharam (painel já atualizado): {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
