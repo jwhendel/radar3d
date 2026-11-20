@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-19T15:55-03:00",
+ "atualizado_em": "2026-11-20T15:26-03:00",
  "itens": [
   {
    "controle": "00394452000103-1-024613/2026",
@@ -274,22 +274,6 @@
    "link": "https://pncp.gov.br/app/editais/00394452000103/2026/24176"
   },
   {
-   "controle": "18279059000126-1-000198/2026",
-   "novo": "NÃO",
-   "nivel": "Média (item 3D dentro de lote)",
-   "encerra": "24/11/2026 08:00",
-   "encerra_iso": "2026-11-24T08:00",
-   "uf": "MG",
-   "municipio": "Várzea da Palma",
-   "orgao": "MUNICIPIO DE VARZEA DA PALMA",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 0043/2026",
-   "objeto": "REGISTRO DE PREÇO PARA FUTURA E EVENTUAL AQUISIÇÃO DE EQUIPAMENTOS E PERIFÉRICOS DE INFORMÁTICA, DESTINADOS A SALAS DE TECNOLOGIA EM ESCOLAS MUNICIPAIS, VISANDO A MELHORIA DA EDUCAÇÃO E A INCLUSÃO DIGITAL DOS ALUNOS.",
-   "itens_txt": "Item 8: IMPRESSORA 3D:TECNOLOGIA FDM (FILAMENTO) DETALHAMENTO: TECNOLOGIA DE IMPRESSAO: FFF/FDM (FUSED FILAMENT FABRICATION). TI (qtd 10.0)",
-   "valor_3d": null,
-   "link": "https://pncp.gov.br/app/editais/18279059000126/2026/198"
-  },
-  {
    "controle": "10662072000158-1-000076/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -354,8 +338,24 @@
    "link": "https://pncp.gov.br/app/editais/11234780000150/2026/66"
   },
   {
-   "controle": "33663683000116-1-000669/2026",
+   "controle": "34868257000181-1-000092/2026",
    "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "25/11/2026 08:00",
+   "encerra_iso": "2026-11-25T08:00",
+   "uf": "AP",
+   "municipio": "Macapá",
+   "orgao": "FUNDACAO UNIVERSIDADE FEDERAL DO AMAPA",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 113/2026",
+   "objeto": "Aquisição de bens de consumo destinados  ao  atendimento  das  demandas aquisição  de  materiais  de  consumo específicos operacionais, pedagógicas e assistivas do Núcleo de Acessibilidade e Inclusão (NAI/UNIFAP).",
+   "itens_txt": "Item 19: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 10.0)\nItem 20: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 10.0)\nItem 21: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 10.0)\nItem 22: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 10.0)\nItem 23: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 10.0)\nItem 24: Conjunto Manutenção Impressora / Copiadora tipo: original, componentes: filamento pla, tipo impressora: 3d, característi (qtd 10.0)",
+   "valor_3d": 6998.4,
+   "link": "https://pncp.gov.br/app/editais/34868257000181/2026/92"
+  },
+  {
+   "controle": "33663683000116-1-000669/2026",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "25/11/2026 08:00",
    "encerra_iso": "2026-11-25T08:00",
@@ -387,7 +387,7 @@
   },
   {
    "controle": "00394452000103-1-024837/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "25/11/2026 08:30",
    "encerra_iso": "2026-11-25T08:30",
@@ -546,6 +546,22 @@
    "link": "https://pncp.gov.br/app/editais/18675934000199/2026/112"
   },
   {
+   "controle": "00394502000144-1-017078/2026",
+   "novo": "SIM",
+   "nivel": "Média (item 3D dentro de lote)",
+   "encerra": "26/11/2026 09:00",
+   "encerra_iso": "2026-11-26T09:00",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "COMANDO DA MARINHA",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 101/2026",
+   "objeto": "Aquisição de material eletrônico.",
+   "itens_txt": "Item 6: Impressora 3d padrão: fdm, tipo gabinete: aberto, material gabinete: alumínio, conexão: usb, lan(cabo), área mínima de i (qtd 1.0)\nItem 7: Impressora 3d padrão: sls, tipo gabinete: fechado, material gabinete: estrutura metálica, conexão: usb e wifi, área míni (qtd 1.0)",
+   "valor_3d": 5650.0,
+   "link": "https://pncp.gov.br/app/editais/00394502000144/2026/17078"
+  },
+  {
    "controle": "07722779000106-1-000147/2026",
    "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
@@ -627,7 +643,7 @@
   },
   {
    "controle": "04253881000103-1-000068/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "27/11/2026 09:30",
    "encerra_iso": "2026-11-27T09:30",
@@ -691,7 +707,7 @@
   },
   {
    "controle": "21195755000169-1-000117/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "02/12/2026 14:00",
    "encerra_iso": "2026-12-02T14:00",
@@ -707,7 +723,7 @@
   },
   {
    "controle": "79151312000156-1-000884/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "03/12/2026 08:00",
    "encerra_iso": "2026-12-03T08:00",
@@ -723,7 +739,7 @@
   },
   {
    "controle": "48031918000124-1-003475/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "03/12/2026 09:00",
    "encerra_iso": "2026-12-03T09:00",
@@ -771,7 +787,7 @@
   },
   {
    "controle": "56089790000188-1-000361/2026",
-   "novo": "SIM",
+   "novo": "NÃO",
    "nivel": "Média (item 3D dentro de lote)",
    "encerra": "09/12/2026 09:00",
    "encerra_iso": "2026-12-09T09:00",
